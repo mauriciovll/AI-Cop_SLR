@@ -1,7 +1,7 @@
 # Co-piloted Sistematic Literature Review - COP-SLR 1.0
 
 ## Project Description
-This repository contains all the source code, data and support page for the article *"Emerging & data technologies applied to public sector: an AI-copiloted systematic literature review"*, written by Maurício Vasconcellos Leão Lyrio, Fabrícia Silva da Rosa, Miklos A. Vasarhelyi and Rogério João Lunkes. The web page hosts the tables and visualizations presented in the article, as well as the specialized assistant and can be reused under the MIT license.
+This repository contains all the source code and data for the article *"Emerging & data technologies applied to public sector: an AI-copiloted systematic literature review"*, written by Maurício Vasconcellos Leão Lyrio, Fabrícia Silva da Rosa, Miklos A. Vasarhelyi and Rogério João Lunkes. The web page hosts the tables and visualizations presented in the article, as well as the specialized assistant and can be reused under the MIT license.
 
 ## Methodology
 
