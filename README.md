@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="images/logo_ppgcg.png" alt="imagem"> | <img src="images/logo_rutgers.png" alt="imagem">
+	<img src="images/logo_ppgcg.png" alt="imagem"> <img src="images/logo_rutgers.png" alt="imagem">
 </p>
 
 # A.I. Co-piloted Sistematic Literature Review
