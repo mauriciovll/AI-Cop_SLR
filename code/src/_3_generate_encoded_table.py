@@ -14,7 +14,7 @@ import pandas as pd
 import json
 
 # Caminho para a pasta que contém os arquivos JSON
-pasta_json = 'C:/Users/mauri/OneDrive/Repositorios/ETech-Gov-Review/data/processed/encoded-articles'  # Substitua pelo caminho correto
+pasta_json = 'C:/Users/mauri/OneDrive/Repositorios/AI-Cop_SLR/data/processed/encoded-articles'  # Substitua pelo caminho correto
 
 # Lista para armazenar os dados dos arquivos JSON
 lista_dados = []
@@ -39,6 +39,6 @@ for nome_arquivo in arquivos_json:
 df_final = pd.DataFrame(lista_dados)
 
 # Salvar o DataFrame consolidado em um arquivo Excel
-df_final.to_excel('C:/Users/mauri/OneDrive/Repositorios/ETech-Gov-Review/data/processed/_9_encoded-articles.xlsx', index=False)
+df_final.to_excel('C:/Users/mauri/OneDrive/Repositorios/AI-Cop_SLR/data/processed/_9_encoded-articles.xlsx', index=False)
 
 print("Tabela gerada com sucesso como 'encoded-articles.xlsx'.")
