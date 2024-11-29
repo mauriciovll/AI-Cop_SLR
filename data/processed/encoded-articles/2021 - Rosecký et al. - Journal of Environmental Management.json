@@ -1,0 +1,17 @@
+{
+  "title": "Predictive modelling as a tool for effective municipal waste management policy at different territorial levels",
+  "doi_number": "10.1016/j.jenvman.2021.112584",
+  "research_approach": "Quantitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Regression analysis; Random forest; Gradient boosted regression trees (GBRT)",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public services/Waste management",
+  "analysis_level": "Macro",
+  "geographical_context": "Czech Republic",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Machine learning",
+  "research_description": "This article investigates the effectiveness of predictive modelling for municipal waste management policies across different territorial levels in the Czech Republic. It focuses on identifying influential factors for municipal waste generation and recycling behavior using regression models and machine learning techniques such as random forest and gradient boosted regression trees.",
+  "research_results": "The study highlights that linear regression models offer a balance between accuracy and interpretability, while random forest models perform better in terms of prediction accuracy. Key influential factors include age structure, number of economic subjects, and population density, though their significance varies by territorial level.",
+  "future_research": "Future research should explore more comprehensive models for lower territorial levels, as model performance deteriorates significantly for municipalities and micro-regions due to data quality issues."
+}

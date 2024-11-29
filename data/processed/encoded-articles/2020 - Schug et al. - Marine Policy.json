@@ -1,0 +1,17 @@
+{
+  "title": "Using online data visualization and analysis to facilitate public involvement in management of catch share programs",
+  "doi_number": "10.1016/j.marpol.2020.104272",
+  "research_approach": "Mixed Methods",
+  "research_method": "Case study",
+  "analysis_techniques": "Sentiment analysis; Data visualization; Interviews",
+  "research_topics": "Applications and use cases",
+  "research_context": "Fisheries management",
+  "analysis_level": "Meso",
+  "geographical_context": "United States",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Artificial Intelligence; Data visualization tools",
+  "research_description": "The article examines the Measuring the Effects of Catch Shares (MECS) project, which developed an online data visualization platform to track the outcomes of catch share programs in U.S. fisheries. The platform aimed to provide accessible, neutral scientific indicators for stakeholders to assess the ecological, economic, social, and governance impacts of catch share programs.",
+  "research_results": "The study found that the online platform successfully provided stakeholders with the tools to independently evaluate catch share programs, despite challenges with data access and confidentiality. The platform improved public participation in fisheries management by allowing stakeholders to visualize key performance indicators and engage with the data.",
+  "future_research": "Future research should explore how online platforms can be further developed to enhance public engagement in natural resource management and ensure transparency in government data usage."
+}

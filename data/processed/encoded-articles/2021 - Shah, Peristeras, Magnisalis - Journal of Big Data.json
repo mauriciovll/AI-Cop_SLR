@@ -1,0 +1,17 @@
+{
+  "title": "DaLiF: A data lifecycle framework for data-driven governments",
+  "doi_number": "10.1186/s40537-021-00481-3",
+  "research_approach": "Qualitative",
+  "research_method": "Theoretical study",
+  "analysis_techniques": "Literature review; Comparative analysis",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public management/Data governance",
+  "analysis_level": "Macro",
+  "geographical_context": "Global",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Big data",
+  "research_description": "This study proposes a data lifecycle framework, DaLiF, for data-driven governments. It addresses the challenges in big data management throughout its lifecycle, offering a systematic structure that governments can adopt for effective data governance. The framework was developed based on an analysis of 76 lifecycle models in the existing literature.",
+  "research_results": "The study identifies key lifecycle phases such as data collection, analysis, storage, and governance. It also highlights challenges related to privacy, data security, and data interoperability, offering solutions for improving data-driven governance in public administration.",
+  "future_research": "Future work could explore the application of DaLiF in specific governmental sectors, and the integration of advanced data analytics technologies such as artificial intelligence and machine learning into the data lifecycle framework."
+}

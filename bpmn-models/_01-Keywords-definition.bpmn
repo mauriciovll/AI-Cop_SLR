@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0pzf3hi" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.10.0-nightly.20210829" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+  <bpmn:process id="Process_0cdpwq9" isExecutable="true">
+    <bpmn:startEvent id="Event_0kg4mea" name="Seed articles">
+      <bpmn:outgoing>Flow_1dixr3j</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:scriptTask id="Activity_0r2dcms" name="Generate the initial keywords list">
+      <bpmn:incoming>Flow_1dixr3j</bpmn:incoming>
+      <bpmn:outgoing>Flow_18kwel1</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:endEvent id="Event_0ub0mkc" name="Final kw list filtered">
+      <bpmn:incoming>Flow_0w7sysd</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:scriptTask id="Activity_1s5vrvf" name="Generate final keywords list">
+      <bpmn:incoming>Flow_1xjwxd6</bpmn:incoming>
+      <bpmn:outgoing>Flow_0wq5nax</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:userTask id="Activity_1en0a9n" name="Research articles on WOS">
+      <bpmn:incoming>Flow_1j4mfyu</bpmn:incoming>
+      <bpmn:outgoing>Flow_0bq18rr</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:businessRuleTask id="Activity_1cr5scn" name="Filter related keywords">
+      <bpmn:incoming>Flow_0wq5nax</bpmn:incoming>
+      <bpmn:outgoing>Flow_0w7sysd</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:manualTask id="Activity_1146mxq" name="Import / export Top 50 articles">
+      <bpmn:incoming>Flow_0bq18rr</bpmn:incoming>
+      <bpmn:outgoing>Flow_1xjwxd6</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:businessRuleTask id="Activity_1d4wbts" name="Filter related keywords">
+      <bpmn:incoming>Flow_18kwel1</bpmn:incoming>
+      <bpmn:outgoing>Flow_1j4mfyu</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:sequenceFlow id="Flow_1dixr3j" sourceRef="Event_0kg4mea" targetRef="Activity_0r2dcms" />
+    <bpmn:sequenceFlow id="Flow_18kwel1" sourceRef="Activity_0r2dcms" targetRef="Activity_1d4wbts" />
+    <bpmn:sequenceFlow id="Flow_0w7sysd" sourceRef="Activity_1cr5scn" targetRef="Event_0ub0mkc" />
+    <bpmn:sequenceFlow id="Flow_1xjwxd6" sourceRef="Activity_1146mxq" targetRef="Activity_1s5vrvf" />
+    <bpmn:sequenceFlow id="Flow_0wq5nax" sourceRef="Activity_1s5vrvf" targetRef="Activity_1cr5scn" />
+    <bpmn:sequenceFlow id="Flow_0bq18rr" sourceRef="Activity_1en0a9n" targetRef="Activity_1146mxq" />
+    <bpmn:sequenceFlow id="Flow_1j4mfyu" sourceRef="Activity_1d4wbts" targetRef="Activity_1en0a9n" />
+    <bpmn:group id="Group_0a916ss" categoryValueRef="CategoryValue_0s4p0al" />
+  </bpmn:process>
+  <bpmn:category id="Category_0ehnt9q">
+    <bpmn:categoryValue id="CategoryValue_0s4p0al" value="1. Keywords definition" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0cdpwq9">
+      <bpmndi:BPMNEdge id="Flow_1j4mfyu_di" bpmnElement="Flow_1j4mfyu">
+        <di:waypoint x="475" y="149" />
+        <di:waypoint x="505" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0bq18rr_di" bpmnElement="Flow_0bq18rr">
+        <di:waypoint x="605" y="149" />
+        <di:waypoint x="635" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0wq5nax_di" bpmnElement="Flow_0wq5nax">
+        <di:waypoint x="865" y="149" />
+        <di:waypoint x="895" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1xjwxd6_di" bpmnElement="Flow_1xjwxd6">
+        <di:waypoint x="735" y="149" />
+        <di:waypoint x="765" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0w7sysd_di" bpmnElement="Flow_0w7sysd">
+        <di:waypoint x="995" y="149" />
+        <di:waypoint x="1022" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_18kwel1_di" bpmnElement="Flow_18kwel1">
+        <di:waypoint x="345" y="149" />
+        <di:waypoint x="375" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dixr3j_di" bpmnElement="Flow_1dixr3j">
+        <di:waypoint x="213" y="149" />
+        <di:waypoint x="245" y="149" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Event_0kg4mea_di" bpmnElement="Event_0kg4mea">
+        <dc:Bounds x="177" y="131" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="165" y="174" width="64" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0r2dcms_di" bpmnElement="Activity_0r2dcms">
+        <dc:Bounds x="245" y="109" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0ub0mkc_di" bpmnElement="Event_0ub0mkc">
+        <dc:Bounds x="1022" y="131" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1012" y="174" width="58" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1s5vrvf_di" bpmnElement="Activity_1s5vrvf">
+        <dc:Bounds x="765" y="109" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1en0a9n_di" bpmnElement="Activity_1en0a9n">
+        <dc:Bounds x="505" y="109" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1cr5scn_di" bpmnElement="Activity_1cr5scn">
+        <dc:Bounds x="895" y="109" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1146mxq_di" bpmnElement="Activity_1146mxq">
+        <dc:Bounds x="635" y="109" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1d4wbts_di" bpmnElement="Activity_1d4wbts">
+        <dc:Bounds x="375" y="109" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_0a916ss_di" bpmnElement="Group_0a916ss">
+        <dc:Bounds x="155" y="80" width="925" height="134" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="162" y="86" width="62" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

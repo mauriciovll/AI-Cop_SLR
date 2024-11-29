@@ -1,0 +1,17 @@
+{
+  "title": "Towards the use of Data Engineering, Advanced Visualization techniques and Association Rules to support knowledge discovery for public policies",
+  "doi_number": "10.1016/j.eswa.2020.114509",
+  "research_approach": "Qualitative",
+  "research_method": "Case study",
+  "analysis_techniques": "Data mining; Association rules; Data engineering; Advanced visualization",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management/Employment and education",
+  "analysis_level": "Meso",
+  "geographical_context": "Spain",
+  "government_level": "Regional",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Machine learning; Data engineering; Data visualization",
+  "research_description": "This paper presents a decision support system developed for the Government of Extremadura to improve public policies in education and employment. Using data engineering, visualization techniques, and machine learning (association rules), the system integrates data from multiple sources to uncover relationships between education and employability, helping to design more effective policies.",
+  "research_results": "The system successfully identifies key factors influencing employability and provides decision-makers with actionable insights. The integration of data from various public entities allows for better-informed education and employment strategies.",
+  "future_research": "Future research should explore the expansion of the decision support system to other regions and policy areas, as well as the potential for real-time data integration and automation of policy recommendations."
+}

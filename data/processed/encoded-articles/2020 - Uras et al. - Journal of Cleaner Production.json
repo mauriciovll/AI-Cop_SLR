@@ -1,0 +1,17 @@
+{
+  "title": "PmA: A real-world system for people mobility monitoring and analysis based on Wi-Fi probes",
+  "doi_number": "10.1016/j.jclepro.2020.122084",
+  "research_approach": "Mixed Methods",
+  "research_method": "Field study",
+  "analysis_techniques": "Simulation/experiment",
+  "research_topics": "Applications and use cases",
+  "research_context": "Smart city management",
+  "analysis_level": "Meso",
+  "geographical_context": "Italy",
+  "government_level": "Local",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Artificial Intelligence; Internet of Things",
+  "research_description": "The paper discusses the development and deployment of the People Mobility Analytics (PmA) system, which uses Wi-Fi probes to monitor urban mobility. It analyzes crowd density, pedestrian flow, and mobility patterns in real-time using data from various real-world scenarios.",
+  "research_results": "The PmA system demonstrated the capability to monitor crowd movements and density efficiently in different urban settings, providing critical insights for public services such as security management and transportation. However, privacy concerns related to Wi-Fi sniffing were raised, highlighting the need for strict compliance with data protection regulations.",
+  "future_research": "Future research should explore enhancing the accuracy of Wi-Fi-based localization algorithms and address challenges related to privacy concerns, including potential solutions such as real-time anonymization techniques."
+}

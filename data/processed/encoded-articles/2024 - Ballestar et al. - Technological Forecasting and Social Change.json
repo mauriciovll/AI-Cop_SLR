@@ -1,0 +1,17 @@
+{
+    "title": "Effectiveness of tutoring at school: A machine learning evaluation",
+    "doi_number": "10.1016/j.techfore.2023.123043",
+    "research_approach": "Quantitative",
+    "research_method": "Case/field study",
+    "analysis_techniques": "Machine learning; Kohonen self-organising maps",
+    "research_topics": "Applications and use cases",
+    "research_context": "Public services/education",
+    "analysis_level": "Micro",
+    "geographical_context": "Spain",
+    "government_level": "Regional",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Machine learning; Artificial neural networks",
+    "research_description": "This study evaluates the effectiveness of tutoring programs designed for at-risk students using a machine learning model. Kohonen self-organising maps (SOMs) were employed to cluster students based on various factors, such as their characteristics, program type, and academic performance, to inform public administrations about social return on investment.",
+    "research_results": "The study shows that tutoring programs effectively reduce school failure and increase the engagement of students at risk, especially through tailored program types.",
+    "future_research": "Further analysis of different regions and post-pandemic years could enhance the generalizability of the findings and improve future tutoring programs."
+}

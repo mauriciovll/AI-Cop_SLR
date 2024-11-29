@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0ix81t5" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.10.0-nightly.20210829" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+  <bpmn:process id="Process_1qmlfnw" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" name="Article portfolio&#10;- 135">
+      <bpmn:outgoing>Flow_18b7fmy</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_18b7fmy" sourceRef="StartEvent_1" targetRef="Activity_1yv9e1f" />
+    <bpmn:manualTask id="Activity_1yv9e1f" name="Create encoding parameters file">
+      <bpmn:incoming>Flow_18b7fmy</bpmn:incoming>
+      <bpmn:outgoing>Flow_1jgl6oy</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:sequenceFlow id="Flow_1jgl6oy" sourceRef="Activity_1yv9e1f" targetRef="Activity_04gdrs2" />
+    <bpmn:businessRuleTask id="Activity_04gdrs2" name="Setup encoding chat">
+      <bpmn:incoming>Flow_1jgl6oy</bpmn:incoming>
+      <bpmn:outgoing>Flow_1fd7kcp</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:sequenceFlow id="Flow_1fd7kcp" sourceRef="Activity_04gdrs2" targetRef="Activity_0jznlbo" />
+    <bpmn:endEvent id="Event_08297kw" name="Encoded articles adjusted">
+      <bpmn:incoming>Flow_1ff6aee</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_09b7uuv" sourceRef="Activity_0wpn41w" targetRef="Activity_051lgr3" />
+    <bpmn:sequenceFlow id="Flow_1isrbbi" sourceRef="Activity_0jznlbo" targetRef="Activity_0wpn41w" />
+    <bpmn:businessRuleTask id="Activity_0jznlbo" name="Encoding articles">
+      <bpmn:incoming>Flow_1fd7kcp</bpmn:incoming>
+      <bpmn:outgoing>Flow_1isrbbi</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:scriptTask id="Activity_0wpn41w" name="Generate portfolio encoded table">
+      <bpmn:incoming>Flow_1isrbbi</bpmn:incoming>
+      <bpmn:outgoing>Flow_09b7uuv</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="Flow_1ff6aee" sourceRef="Activity_051lgr3" targetRef="Event_08297kw" />
+    <bpmn:scriptTask id="Activity_051lgr3" name="Adjust table results">
+      <bpmn:incoming>Flow_09b7uuv</bpmn:incoming>
+      <bpmn:outgoing>Flow_1ff6aee</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:group id="Group_0n78djv" categoryValueRef="CategoryValue_0tjznwb" />
+  </bpmn:process>
+  <bpmn:category id="Category_00l4s1z">
+    <bpmn:categoryValue id="CategoryValue_0tjznwb" value="3. Portfolio scanning" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1qmlfnw">
+      <bpmndi:BPMNEdge id="Flow_1ff6aee_di" bpmnElement="Flow_1ff6aee">
+        <di:waypoint x="830" y="150" />
+        <di:waypoint x="862" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1isrbbi_di" bpmnElement="Flow_1isrbbi">
+        <di:waypoint x="590" y="150" />
+        <di:waypoint x="610" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_09b7uuv_di" bpmnElement="Flow_09b7uuv">
+        <di:waypoint x="710" y="150" />
+        <di:waypoint x="730" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1fd7kcp_di" bpmnElement="Flow_1fd7kcp">
+        <di:waypoint x="470" y="150" />
+        <di:waypoint x="490" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1jgl6oy_di" bpmnElement="Flow_1jgl6oy">
+        <di:waypoint x="350" y="150" />
+        <di:waypoint x="370" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_18b7fmy_di" bpmnElement="Flow_18b7fmy">
+        <di:waypoint x="218" y="150" />
+        <di:waypoint x="250" y="150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="182" y="132" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="164" y="175" width="73" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0aefmoy_di" bpmnElement="Activity_1yv9e1f">
+        <dc:Bounds x="250" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1qmszo9_di" bpmnElement="Activity_04gdrs2">
+        <dc:Bounds x="370" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_08297kw_di" bpmnElement="Event_08297kw">
+        <dc:Bounds x="862" y="132" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="839" y="175" width="82" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_19lcntp_di" bpmnElement="Activity_0jznlbo">
+        <dc:Bounds x="490" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0zwge8s_di" bpmnElement="Activity_0wpn41w">
+        <dc:Bounds x="610" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1alnxfi_di" bpmnElement="Activity_051lgr3">
+        <dc:Bounds x="730" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_0n78djv_di" bpmnElement="Group_0n78djv">
+        <dc:Bounds x="153" y="80" width="787" height="140" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="174" y="87" width="53" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

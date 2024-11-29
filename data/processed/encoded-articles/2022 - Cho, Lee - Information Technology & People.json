@@ -1,0 +1,17 @@
+{
+  "title": "Creating value using public big data: comparison of driving factors from the provider’s perspective",
+  "doi_number": "10.1108/ITP-04-2019-0169",
+  "research_approach": "Mixed methods",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Analytic hierarchy process (AHP); Analytic network process (ANP); Expert interviews",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management",
+  "analysis_level": "Meso",
+  "geographical_context": "South Korea",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Big data; Open government data (OGD)",
+  "research_description": "The study analyzes the factors driving the use of open government data (OGD) from the perspective of data providers in the public sector, using methodologies like AHP and ANP to rank these factors based on expert interviews.",
+  "research_results": "The study found that the technological environment is a key driver, particularly data quality management, while organizational competencies and institutional culture also play critical roles in OGD adoption.",
+  "future_research": "Further research could focus on the impact of human resource capabilities and institutional readiness for OGD adoption in other countries."
+}

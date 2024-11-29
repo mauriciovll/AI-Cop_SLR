@@ -1,0 +1,17 @@
+{
+    "title": "Integral system safety for machine learning in the public sector: An empirical account",
+    "doi_number": "10.1016/j.giq.2024.101963",
+    "research_approach": "Qualitative",
+    "research_method": "Semi-structured interviews",
+    "analysis_techniques": "Document analysis; Interviews",
+    "research_topics": "Determinants, risks and impacts",
+    "research_context": "Public sector",
+    "analysis_level": "Meso",
+    "geographical_context": "Netherlands",
+    "government_level": "National",
+    "theoretical_background": "Systems theory; System safety",
+    "technology_discussed": "Machine learning; Artificial intelligence",
+    "research_description": "This paper analyzes the safety risks of machine learning systems in the public sector through the lens of systems theory and system safety. It examines the risk factors of these systems based on semi-structured interviews with public professionals in the Netherlands.",
+    "research_results": "The study identifies organizational complexity, a lack of safety culture, and inadequate knowledge as key risk factors. It argues that safety in ML systems must be addressed with a systems theory perspective to account for both technical and institutional risks.",
+    "future_research": "Future research should explore the application of systems theory in the design of safety protocols for ML systems in other public sector contexts and countries."
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Combining shallow and deep learning approaches against data scarcity in legal domains",
+    "doi_number": "10.1016/j.giq.2022.101715",
+    "research_approach": "Quantitative",
+    "research_method": "Case study",
+    "analysis_techniques": "TF-IDF; Deep Neural Networks (DNN); Latent Semantic Analysis (LSA)",
+    "research_topics": "Applications and use cases",
+    "research_context": "Legislative sector",
+    "analysis_level": "Meso",
+    "geographical_context": "Global",
+    "government_level": "International",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Artificial intelligence; Deep learning",
+    "research_description": "The paper addresses the issue of data scarcity in legal domains by combining shallow and deep learning techniques to process and understand legal language. It proposes a pipeline called SyntagmTuner that leverages both shallow and deep learning models to perform tasks such as text classification and legal question answering.",
+    "research_results": "The results show that a combination of shallow and deep learning approaches significantly improves the performance of language models on legal texts, even when the dataset is small. The SyntagmTuner outperforms baseline models on classification and question-answering tasks related to legal texts.",
+    "future_research": "Future research should explore the broader applicability of the SyntagmTuner in other domains of e-governance, particularly in improving the transparency and accessibility of legal information."
+}

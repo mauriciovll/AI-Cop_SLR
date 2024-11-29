@@ -1,0 +1,18 @@
+
+{
+    "title": "Secure Data Management Life Cycle for Government Big-Data Ecosystem: Design and Development Perspective",
+    "doi_number": "10.3390/systems11080380",
+    "research_approach": "Mixed Methods",
+    "research_method": "Theoretical study",
+    "analysis_techniques": "Simulation/experiment",
+    "research_topics": "Implementation and governance",
+    "research_context": "Public management/information technology",
+    "analysis_level": "Macro",
+    "geographical_context": "Global",
+    "government_level": "Several",
+    "theoretical_background": "Data life cycle models; Security models",
+    "technology_discussed": "Big data; Cloud computing",
+    "research_description": "This paper presents a mixed-methods approach to developing a secure data management life cycle for the government\u2019s big data ecosystem. The study combines theoretical analysis with simulations and experiments to design a secure architecture that addresses data confidentiality, integrity, and availability challenges. It focuses on improving both the technical and organizational aspects of data security within public administration.",
+    "research_results": "The study proposes a hybrid approach combining ECC with AES encryption to enhance data confidentiality and security, improving data management in public administration.",
+    "future_research": "Future research could focus on the practical implementation of the secure data management life cycle in specific government sectors."
+}

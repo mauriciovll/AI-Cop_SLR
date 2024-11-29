@@ -1,0 +1,17 @@
+{
+  "title": "From Pandemic Control to Data-Driven Governance: The Case of China’s Health Code",
+  "doi_number": "10.3389/fpos.2021.627959",
+  "research_approach": "Qualitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Thematic analysis; Case comparison; Document analysis",
+  "research_topics": "Ethical and legal implications",
+  "research_context": "Public management/health",
+  "analysis_level": "Macro",
+  "geographical_context": "China",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Big Data; Digital platforms",
+  "research_description": "This article analyzes China's Health Code system, comparing it to Western contact tracing applications, and focuses on the legal and political context surrounding its implementation. It critiques the Health Code as a tool for population control rather than a virus control mechanism, exploring its role in enhancing state surveillance through digital means.",
+  "research_results": "The Health Code serves as an instrument of social control by integrating digital surveillance with public services. While effective in pandemic response, it raises significant concerns about privacy, data governance, and state power. The study identifies the complex legal and political dynamics that have allowed the Health Code to proliferate, despite lacking robust legal scrutiny.",
+  "future_research": "Future studies should further explore the long-term implications of data-driven governance tools like the Health Code, particularly in balancing public health, privacy, and state control in a post-pandemic world."
+}

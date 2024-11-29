@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1x1yhiz" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.10.0-nightly.20210829" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+  <bpmn:process id="Process_09ep2d8" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" name="JIF-Q1 article database">
+      <bpmn:outgoing>Flow_15d559r</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_15d559r" sourceRef="StartEvent_1" targetRef="Activity_1riawa1" />
+    <bpmn:scriptTask id="Activity_1riawa1" name="Generate exclude verification file">
+      <bpmn:incoming>Flow_15d559r</bpmn:incoming>
+      <bpmn:outgoing>Flow_12e73q6</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="Flow_12e73q6" sourceRef="Activity_1riawa1" targetRef="Activity_1bakkq3" />
+    <bpmn:manualTask id="Activity_0zvg5sr" name="audit  exclude verified file">
+      <bpmn:incoming>Flow_1y88xpb</bpmn:incoming>
+      <bpmn:outgoing>Flow_0iu8ohz</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:sequenceFlow id="Flow_0iu8ohz" sourceRef="Activity_0zvg5sr" targetRef="Activity_05tfo99" />
+    <bpmn:manualTask id="Activity_05tfo99" name="Exclude from reference manager based on verified file">
+      <bpmn:incoming>Flow_0iu8ohz</bpmn:incoming>
+      <bpmn:outgoing>Flow_05pufc6</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:sequenceFlow id="Flow_05pufc6" sourceRef="Activity_05tfo99" targetRef="Activity_07ij185" />
+    <bpmn:manualTask id="Activity_07ij185" name="Export article database">
+      <bpmn:incoming>Flow_05pufc6</bpmn:incoming>
+      <bpmn:outgoing>Flow_1jtml69</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:dataStoreReference id="DataStoreReference_1tld6yt" name="n = 174" />
+    <bpmn:endEvent id="Event_15f9dxs" name="Consolidated sample - 174">
+      <bpmn:incoming>Flow_1jtml69</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1jtml69" sourceRef="Activity_07ij185" targetRef="Event_15f9dxs" />
+    <bpmn:sequenceFlow id="Flow_1y88xpb" sourceRef="Activity_1bakkq3" targetRef="Activity_0zvg5sr" />
+    <bpmn:serviceTask id="Activity_1bakkq3" name="Exclude by full reading the titles and abstracts">
+      <bpmn:incoming>Flow_12e73q6</bpmn:incoming>
+      <bpmn:outgoing>Flow_1y88xpb</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:group id="Group_14ziuij" categoryValueRef="CategoryValue_0n9nlm6" />
+  </bpmn:process>
+  <bpmn:category id="Category_1mkyrxo">
+    <bpmn:categoryValue id="CategoryValue_0n9nlm6" value="2.2. Exclude by reading titles and abstracts" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_09ep2d8">
+      <bpmndi:BPMNEdge id="Flow_1jtml69_di" bpmnElement="Flow_1jtml69">
+        <di:waypoint x="820" y="180" />
+        <di:waypoint x="852" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_05pufc6_di" bpmnElement="Flow_05pufc6">
+        <di:waypoint x="700" y="180" />
+        <di:waypoint x="720" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0iu8ohz_di" bpmnElement="Flow_0iu8ohz">
+        <di:waypoint x="580" y="180" />
+        <di:waypoint x="600" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_12e73q6_di" bpmnElement="Flow_12e73q6">
+        <di:waypoint x="340" y="180" />
+        <di:waypoint x="360" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_15d559r_di" bpmnElement="Flow_15d559r">
+        <di:waypoint x="208" y="180" />
+        <di:waypoint x="240" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1y88xpb_di" bpmnElement="Flow_1y88xpb">
+        <di:waypoint x="460" y="180" />
+        <di:waypoint x="480" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="172" y="162" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="157" y="205" width="67" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_19lilcm_di" bpmnElement="Activity_1riawa1">
+        <dc:Bounds x="240" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1y43zyr_di" bpmnElement="Activity_0zvg5sr">
+        <dc:Bounds x="480" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ja2ns0_di" bpmnElement="Activity_05tfo99">
+        <dc:Bounds x="600" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0sqwzu0_di" bpmnElement="Activity_07ij185">
+        <dc:Bounds x="720" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_1tld6yt_di" bpmnElement="DataStoreReference_1tld6yt" bioc:stroke="#000" bioc:fill="#fff">
+        <dc:Bounds x="779" y="97" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="786" y="125" width="38" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_15f9dxs_di" bpmnElement="Event_15f9dxs">
+        <dc:Bounds x="852" y="162" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="838" y="205" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0w8mcdb_di" bpmnElement="Activity_1bakkq3">
+        <dc:Bounds x="360" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_14ziuij_di" bpmnElement="Group_14ziuij">
+        <dc:Bounds x="140" y="80" width="780" height="168" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="154" y="86" width="85" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

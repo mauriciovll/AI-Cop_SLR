@@ -1,0 +1,17 @@
+{
+    "title": "Real-time data exploitation supported by model- and event-driven architecture to enhance situation awareness, application to crisis management",
+    "doi_number": "10.1080/17517575.2019.1691268",
+    "research_approach": "Mixed Methods",
+    "research_method": "Case study",
+    "analysis_techniques": "Document analysis; Complex event processing; Descriptive analysis",
+    "research_topics": "Implementation and governance",
+    "research_context": "Public services/security",
+    "analysis_level": "Meso",
+    "geographical_context": "France",
+    "government_level": "National",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Real-time analytics",
+    "research_description": "The paper proposes a framework that merges model-driven and event-driven architectures for real-time data exploitation to improve situation awareness, focusing on crisis management scenarios.",
+    "research_results": "The proposed architecture is validated through a realistic flood scenario, demonstrating improvements in real-time data processing and decision support for crisis management.",
+    "future_research": "Future work should explore the integration of additional data sources and further refinement of the framework for broader applications in public sector crisis management."
+}

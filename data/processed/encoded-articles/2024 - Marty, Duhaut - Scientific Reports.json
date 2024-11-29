@@ -1,0 +1,17 @@
+{
+  "title": "Global poverty estimation using private and public sector big data sources",
+  "doi_number": "10.1038/s41598-023-49564-6",
+  "research_approach": "Quantitative",
+  "research_method": "Machine Learning; Case/Field study",
+  "analysis_techniques": "XGBoost; CNN; Regularized linear regression; Support vector machines",
+  "research_topics": "Applications and use cases",
+  "research_context": "Global poverty estimation",
+  "analysis_level": "Macro",
+  "geographical_context": "Global",
+  "government_level": "Several",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Machine learning",
+  "research_description": "This study utilizes machine learning models to estimate wealth and poverty levels across 59 countries by integrating diverse data sources, such as satellite imagery and social media. The models include XGBoost, Convolutional Neural Networks (CNN), and support vector machines, which are trained to detect economic disparities in regions with limited official data availability. The approach emphasizes the potential of non-traditional data sources combined with machine learning to better estimate wealth distribution in areas with poor traditional data collection.",
+  "research_results": "The machine learning models explained 55% of the wealth variation at the survey cluster level and 59% at the district level, with higher performance in lower-income regions. This indicates the utility of machine learning in poverty estimation, especially in areas where traditional data sources are scarce.",
+  "future_research": "Future studies could explore the integration of additional non-traditional data sources, such as telecom data or financial transaction data, to improve accuracy and broaden the application of these models to other socio-economic indicators."
+}

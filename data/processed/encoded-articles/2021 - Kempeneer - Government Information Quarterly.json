@@ -1,0 +1,17 @@
+{
+  "title": "A big data state of mind: Epistemological challenges to accountability and transparency in data-driven regulation",
+  "doi_number": "10.1016/j.giq.2021.101578",
+  "research_approach": "Qualitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Document analysis; Expert interviews",
+  "research_topics": "Ethical and legal implications",
+  "research_context": "Public sector/Regulation",
+  "analysis_level": "Macro",
+  "geographical_context": "European Union",
+  "government_level": "Supranational",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Big Data; Algorithms",
+  "research_description": "This article investigates the epistemological challenges of using big data in the EU-wide banking stress test, particularly how big data affects accountability and transparency in regulatory processes. It examines the shift towards data-driven regulation and its implications for the relationship between regulators and regulated entities.",
+  "research_results": "The study finds that big data-driven regulation introduces new challenges for transparency and accountability. The epistemological shift towards relying on data rather than theory creates mistrust between regulators and banks, as the lack of justification for data-driven results complicates the regulatory process.",
+  "future_research": "Future studies should explore how to develop new legal and practical frameworks for validating data-driven knowledge claims, particularly in the context of transparency and accountability in public sector regulation."
+}

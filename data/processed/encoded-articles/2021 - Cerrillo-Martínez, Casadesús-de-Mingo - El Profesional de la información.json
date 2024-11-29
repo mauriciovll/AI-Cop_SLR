@@ -1,0 +1,17 @@
+{
+  "title": "Data governance for public transparency",
+  "doi_number": "10.3145/epi.2021.jul.02",
+  "research_approach": "Qualitative",
+  "research_method": "Case study",
+  "analysis_techniques": "Document analysis; Comparative analysis",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public management/Transparency",
+  "analysis_level": "Meso",
+  "geographical_context": "Spain",
+  "government_level": "Local",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Big Data",
+  "research_description": "The article analyzes three models of data governance implemented by different public agencies in Spain to improve transparency. The study identifies the key characteristics of each model, including the design, stakeholders involved, and the functions attributed to data governance in enhancing public transparency.",
+  "research_results": "The study demonstrates that effective data governance is essential for improving transparency in public administration. The three models explored vary in structure but share a common goal of enhancing data quality, accessibility, and reuse, which are vital for transparency initiatives.",
+  "future_research": "Future research should investigate the long-term impact of data governance models on public transparency and explore how these models can be adapted to different governmental contexts."
+}

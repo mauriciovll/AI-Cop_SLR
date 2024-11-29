@@ -1,0 +1,17 @@
+{
+  "title": "Data analysis of intellectual property policy system based on Internet of Things",
+  "doi_number": "10.1080/17517575.2020.1712744",
+  "research_approach": "Mixed Methods",
+  "research_method": "Simulation/experiment",
+  "analysis_techniques": "Data mining; Cluster analysis",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management/Intellectual property",
+  "analysis_level": "Macro",
+  "geographical_context": "China",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Internet of Things; Big data",
+  "research_description": "This study explores the use of IoT and big data in analyzing intellectual property policies in China. It aims to design a more complete intellectual property policy analysis system using data mining and cluster analysis techniques.",
+  "research_results": "The study found that IoT and big data technologies improve the efficiency of intellectual property policy management, enabling better resource allocation and decision-making. However, challenges related to data availability and system integration remain.",
+  "future_research": "Future research should focus on expanding the application of IoT data analysis in other areas of public policy, as well as addressing the challenges of integrating big data technologies into existing systems."
+}

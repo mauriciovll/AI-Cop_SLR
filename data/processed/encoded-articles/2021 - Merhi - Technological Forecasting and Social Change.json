@@ -1,0 +1,17 @@
+{
+  "title": "Evaluating the critical success factors of data intelligence implementation in the public sector using analytical hierarchy process",
+  "doi_number": "10.1016/j.techfore.2021.121180",
+  "research_approach": "Mixed Methods",
+  "research_method": "Survey",
+  "analysis_techniques": "Analytic Hierarchy Process (AHP); Expert interviews",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public management/Information Technology",
+  "analysis_level": "Macro",
+  "geographical_context": "Global",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Data Analytics",
+  "research_description": "This study evaluates the critical success factors that impact the implementation of data intelligence in the public sector using the Analytic Hierarchy Process (AHP). It identifies 14 factors categorized under organization, process, and technology, with technology being the most crucial factor for successful implementation.",
+  "research_results": "The results show that project management, IS & data, and data quality are the top critical success factors, with technology playing the most essential role in the implementation of data intelligence systems in the public sector.",
+  "future_research": "Future research should explore other critical success factors, including country-specific factors like national culture, legal systems, and levels of corruption, which may influence the successful implementation of data intelligence systems."
+}

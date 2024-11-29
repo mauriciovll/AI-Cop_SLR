@@ -1,0 +1,17 @@
+{
+  "title": "Automation in the future of public sector employment: the case of Brazilian Federal Government",
+  "doi_number": "10.1016/j.techsoc.2021.101722",
+  "research_approach": "Mixed Methods",
+  "research_method": "Simulation/experiment",
+  "analysis_techniques": "Machine learning; Natural Language Processing (NLP); Bartik Occupational Tasks (BOT)",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management/Employment",
+  "analysis_level": "Micro",
+  "geographical_context": "Brazil",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Machine Learning; Natural Language Processing (NLP); Automation",
+  "research_description": "The study investigates the susceptibility of Brazilian Federal Government occupations to automation using machine learning and NLP techniques. It introduces the Bartik Occupational Tasks (BOT) method to predict automation susceptibility.",
+  "research_results": "Approximately 20% of Brazilian public sector employees work in jobs highly susceptible to automation, particularly those with lower education and salary levels. The study highlights the importance of addressing the impact of automation on public sector employment.",
+  "future_research": "Future studies should explore the implementation of automation in various public sector contexts, focusing on the effects on employment and public administration efficiency."
+}

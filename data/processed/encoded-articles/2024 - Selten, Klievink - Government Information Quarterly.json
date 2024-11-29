@@ -1,0 +1,17 @@
+{
+  "title": "Organizing public sector AI adoption: Navigating between separation and integration",
+  "doi_number": "10.1016/j.giq.2023.101885",
+  "research_approach": "Qualitative",
+  "research_method": "Case/Field study",
+  "analysis_techniques": "Document analysis; Semi-structured interviews",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public management",
+  "analysis_level": "Meso",
+  "geographical_context": "Netherlands",
+  "government_level": "National",
+  "theoretical_background": "Organizational ambidexterity theory",
+  "technology_discussed": "Artificial Intelligence",
+  "research_description": "This study explores how public organizations strategically manage AI adoption, navigating tensions between AI innovation and bureaucratic structures. It examines different organizational approaches to AI adoption—structural separation and contextual integration—and how each manages barriers related to operational alignment, technical integration, and ethical concerns.",
+  "research_results": "Findings show that structural separation enables technical expertise but hinders operational alignment, while contextual integration improves alignment but faces robustness and ethical challenges. Hybrid approaches combining both strategies appear most effective.",
+  "future_research": "Future studies could explore the long-term impact of hybrid AI adoption strategies and examine how organizations balance innovation and operational needs."
+}

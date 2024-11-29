@@ -1,0 +1,17 @@
+{
+    "title": "Determinants of digital innovation in the public sector",
+    "doi_number": "10.1016/j.giq.2022.101723",
+    "research_approach": "Quantitative",
+    "research_method": "Survey",
+    "analysis_techniques": "Tobit regression; Descriptive statistics; Geographic Information System (GIS) analysis",
+    "research_topics": "Determinants, risks and impacts; Implementation and governance",
+    "research_context": "Public management",
+    "analysis_level": "Meso",
+    "geographical_context": "South Korea",
+    "government_level": "Local",
+    "theoretical_background": "Demand-pull innovation; Upper echelons theory; Isomorphic pressure; Electoral incentive hypothesis",
+    "technology_discussed": "Artificial intelligence; Big data; Internet of Things (IoT); Augmented reality (AR); Blockchain",
+    "research_description": "This study investigates the key factors influencing digital innovation adoption by local governments in South Korea. It focuses on demographic characteristics, electoral competition, institutional pressures, and leadership profiles as drivers for digital innovation.",
+    "research_results": "The study finds that younger citizens and leaders, electoral competition, and neighboring localities adopting innovations significantly drive digital innovation. The findings suggest that demand-pull innovation and isomorphic pressures are critical to explaining these variations.",
+    "future_research": "Future research should further explore the causal mechanisms linking institutional pressures and innovation adoption, as well as expand the analysis to other countries for broader generalization."
+}

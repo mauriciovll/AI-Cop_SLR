@@ -1,0 +1,17 @@
+{
+    "title": "Mergers of public sector banks: Best partner selection using a data-driven approach",
+    "doi_number": "10.1016/j.frl.2024.105297",
+    "research_approach": "Quantitative",
+    "research_method": "Data envelopment analysis; Clustering",
+    "analysis_techniques": "DEA; Clustering",
+    "research_topics": "Applications and use cases",
+    "research_context": "Public management/finance",
+    "analysis_level": "Macro",
+    "geographical_context": "India",
+    "government_level": "National",
+    "theoretical_background": "Efficiency theory of mergers",
+    "technology_discussed": "Machine learning; Data envelopment analysis",
+    "research_description": "This study uses a data-driven approach to identify optimal partner combinations for mergers of public sector banks in India. The methodology includes clustering and Data Envelopment Analysis (DEA) to improve post-merger efficiency, with a focus on ownership and technological similarities.",
+    "research_results": "The study identifies four optimal merger combinations, three involving two banks each and one with four banks. Results align partially with the regulator's merger plan, but the study proposes more efficient combinations.",
+    "future_research": "Future research could focus on applying this methodology to other sectors and regions, exploring further efficiency gains from mergers."
+}

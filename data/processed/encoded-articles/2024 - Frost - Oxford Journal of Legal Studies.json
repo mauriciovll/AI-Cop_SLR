@@ -1,0 +1,17 @@
+{
+    "title": "The Impoverished Publicness of Algorithmic Decision Making",
+    "doi_number": "10.1093/ojls/gqae027",
+    "research_approach": "Qualitative",
+    "research_method": "Theoretical study",
+    "analysis_techniques": "Document analysis",
+    "research_topics": "Ethical and legal implications",
+    "research_context": "Legislative sector",
+    "analysis_level": "Macro",
+    "geographical_context": "UK",
+    "government_level": "National",
+    "theoretical_background": "Democratic theory; Neo-republicanism",
+    "technology_discussed": "Machine learning",
+    "research_description": "This article explores the limitations of algorithmic decision-making, particularly machine learning models, in public administration, highlighting how these models compromise the 'publicness' of decisions in democratic settings.",
+    "research_results": "The use of machine learning in public decision-making leads to an impoverished publicness, reducing the capacity for dialogical and synergetic interactions in public administration.",
+    "future_research": "Future research should focus on regulatory frameworks that can address the democratic deficits caused by machine learning models in public administration."
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Digital transformation toward AI-augmented public administration: The perception of government employees and the willingness to use AI in government",
+  "doi_number": "10.1016/j.giq.2021.101664",
+  "research_approach": "Quantitative",
+  "research_method": "Survey",
+  "analysis_techniques": "Ordinary Least Squares (OLS); Logistic regression",
+  "research_topics": "Determinants, risks and impacts",
+  "research_context": "Public management/Human resources",
+  "analysis_level": "Micro",
+  "geographical_context": "United States",
+  "government_level": "National",
+  "theoretical_background": "Technology Acceptance Model (TAM); Diffusion of Innovation (DOI)",
+  "technology_discussed": "Artificial intelligence",
+  "research_description": "This study examines the perception of U.S. government employees regarding AI and their willingness to support AI technologies in government. The analysis focuses on how positive and negative perceptions influence the adoption of AI technologies based on a survey conducted with 410 government employees.",
+  "research_results": "Positive perceptions about AI technologies increased willingness to support AI adoption, particularly in areas such as efficiency and decision-making improvements. However, concerns about AI’s ability to make ethical judgments and potential biases against minorities were highlighted as challenges. Familiarity with AI technologies positively influenced support for AI in government.",
+  "future_research": "Future studies could explore the long-term impact of AI technologies on government transparency, employee training, and policy-making."
+}

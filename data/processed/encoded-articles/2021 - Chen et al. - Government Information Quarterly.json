@@ -1,0 +1,17 @@
+{
+  "title": "AI-based self-service technology in public service delivery: User experience and influencing factors",
+  "doi_number": "10.1016/j.giq.2020.101520",
+  "research_approach": "Quantitative",
+  "research_method": "Survey",
+  "analysis_techniques": "Regression analysis",
+  "research_topics": "Determinants, risks and impacts",
+  "research_context": "Public management/Technology adoption",
+  "analysis_level": "Micro",
+  "geographical_context": "China",
+  "government_level": "Local",
+  "theoretical_background": "Consumer Value Theory",
+  "technology_discussed": "Artificial Intelligence; Machine learning; Natural Language Processing (NLP)",
+  "research_description": "This paper investigates the factors influencing user experience of AI-based self-service technology in public services, specifically focusing on the role of personalization, aesthetics, and trust in government as moderating factors. Data was collected through a survey of 379 citizens using AI-based self-service machines in a public service center in China.",
+  "research_results": "The study finds that personalization and aesthetics positively affect user experience, while perceived time spent negatively affects it. Additionally, trust in government positively moderates the relationship between personalization, aesthetics, and user experience.",
+  "future_research": "Further studies should investigate how these findings can be applied to different public sector contexts and explore the long-term impacts of AI-based service technology on public trust."
+}

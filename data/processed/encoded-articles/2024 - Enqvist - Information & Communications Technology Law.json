@@ -1,0 +1,17 @@
+{
+    "title": "Rule-based versus AI-driven benefits allocation: GDPR and AIA legal implications and challenges for automation in public social security administration",
+    "doi_number": "10.1080/13600834.2024.2349835",
+    "research_approach": "Qualitative",
+    "research_method": "Document analysis",
+    "analysis_techniques": "Document analysis; Case analysis",
+    "research_topics": "Ethical and legal implications",
+    "research_context": "Public/social security",
+    "analysis_level": "Meso",
+    "geographical_context": "European Union",
+    "government_level": "Supranational",
+    "theoretical_background": "GDPR; Artificial Intelligence Act (AIA)",
+    "technology_discussed": "Automated decision-making; Artificial intelligence",
+    "research_description": "This paper explores the legal implications of the GDPR and the Artificial Intelligence Act on the use of automated decision-making systems in public social security administration. It compares rule-based and AI-driven systems, focusing on how these legal frameworks influence their deployment.",
+    "research_results": "The article highlights the challenges posed by GDPR and AIA to the use of fully automated decision systems in social security, with a focus on ensuring legality, fairness, and transparency. It underscores the risks of bias in AI-driven systems and the legal safeguards required under these frameworks.",
+    "future_research": "Future studies could explore the impact of new AI regulations on public administrations beyond social security, and assess how these frameworks might evolve as AI technologies advance."
+}

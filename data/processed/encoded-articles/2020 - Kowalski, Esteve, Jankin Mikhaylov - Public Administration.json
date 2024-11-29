@@ -1,0 +1,17 @@
+{
+    "title": "Improving public services by mining citizen feedback: An application of natural language processing",
+    "doi_number": "10.1111/padm.12656",
+    "research_approach": "Quantitative",
+    "research_method": "Case study",
+    "analysis_techniques": "Natural language processing; Sentiment analysis",
+    "research_topics": "Applications and use cases",
+    "research_context": "Public services",
+    "analysis_level": "Meso",
+    "geographical_context": "United Kingdom",
+    "government_level": "Local",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Natural language processing",
+    "research_description": "This article applies natural language processing (NLP) to analyze citizen feedback and improve public services in the United Kingdom. The case study evaluates how NLP can enhance the analysis of citizen comments for better service delivery.",
+    "research_results": "The findings demonstrate that NLP can provide valuable insights into citizen satisfaction and improve the responsiveness of public services.",
+    "future_research": "Further research should explore the application of NLP across other public services and countries, and assess its long-term impact on public administration."
+}

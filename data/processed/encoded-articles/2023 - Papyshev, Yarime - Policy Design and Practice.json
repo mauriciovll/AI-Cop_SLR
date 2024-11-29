@@ -1,0 +1,17 @@
+{
+    "title": "The state\u2019s role in governing artificial intelligence: development, control, and promotion through national strategies",
+    "doi_number": "10.1080/25741292.2022.2162252",
+    "research_approach": "Mixed Methods",
+    "research_method": "Case/field study",
+    "analysis_techniques": "Qualitative content analysis; LDA topic modeling",
+    "research_topics": "Determinants, risks and impacts",
+    "research_context": "Control and governance",
+    "analysis_level": "Macro",
+    "geographical_context": "Global",
+    "government_level": "Several",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Artificial intelligence",
+    "research_description": "This research investigates the roles of governments in governing AI through the analysis of 31 national AI strategies. The study uses qualitative content analysis and LDA topic modeling to classify the state's functions into three themes: development, control, and promotion. The findings reveal that the emphasis on each theme varies by country, with post-soviet bloc and East Asian countries prioritizing development, EU countries focusing on control, and the UK, US, and Ireland emphasizing promotion.",
+    "research_results": "The study identifies 13 state functions related to AI governance, such as ethics, human capital, regulation, and national security. It classifies these into the three themes of development, control, and promotion. The LDA results indicate that development is the dominant theme in post-soviet and East Asian countries, control is emphasized in the EU, while promotion is prioritized in the UK, US, and Ireland.",
+    "future_research": "Future studies could expand the scope by including other policy documents or examining individual case studies to better understand how the state's role in AI governance is evolving across different countries."
+}

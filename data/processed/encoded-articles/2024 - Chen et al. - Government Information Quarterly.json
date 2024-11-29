@@ -1,0 +1,17 @@
+{
+    "title": "An empirical investigation of users' switching intention to public service robots: From the perspective of PPM framework",
+    "doi_number": "10.1016/j.giq.2024.101933",
+    "research_approach": "Quantitative",
+    "research_method": "Survey",
+    "analysis_techniques": "Structural Equation Modelling (SEM)",
+    "research_topics": "Determinants, risks and impacts",
+    "research_context": "Public services",
+    "analysis_level": "Micro",
+    "geographical_context": "China",
+    "government_level": "National",
+    "theoretical_background": "Push-Pull-Mooring (PPM) framework",
+    "technology_discussed": "Artificial intelligence; Public service robots",
+    "research_description": "This paper investigates the factors affecting users' switching intentions to public service robots using the PPM framework. The study surveyed 419 citizens in Chinese government service halls who had experience with both human services and public service robots.",
+    "research_results": "The study found that perceived inefficiency of human services and attractiveness of robots are key drivers for switching intention. Inertia negatively impacts the willingness to switch.",
+    "future_research": "Future research should explore different demographic groups and contexts to see if the PPM model holds across other regions or service types."
+}

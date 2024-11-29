@@ -1,0 +1,17 @@
+{
+  "title": "Preventing rather than punishing: An early warning model of malfeasance in public procurement",
+  "doi_number": "10.1016/j.ijforecast.2020.06.006",
+  "research_approach": "Quantitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Data mining; Predictive modelling; Machine learning",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public procurement",
+  "analysis_level": "Meso",
+  "geographical_context": "Colombia",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Machine learning; Predictive analytics",
+  "research_description": "This paper discusses the use of machine learning models to predict malfeasance in public procurement contracts. By analyzing over two million contracts in Colombia's SECOP system, the authors identify patterns that suggest potential breaches of contract, corruption, and inefficiency, helping public entities to target contracts for auditing and preventive action.",
+  "research_results": "The study shows that a small number of characteristics, such as contract size, timing, and political context, are key predictors of procurement malfeasance. The models demonstrate high predictive accuracy and can guide anti-corruption agencies in monitoring risky contracts.",
+  "future_research": "Future research should focus on improving the adaptability of predictive models, as contractors and officials may change behavior to avoid detection. The models could also be extended to other sectors or countries to generalize the findings."
+}

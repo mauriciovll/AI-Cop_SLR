@@ -1,0 +1,17 @@
+{
+    "title": "How do citizens perceive the use of Artificial Intelligence in public sector decisions?",
+    "doi_number": "10.1016/j.giq.2023.101906",
+    "research_approach": "Quantitative",
+    "research_method": "Survey",
+    "analysis_techniques": "T-test; ANOVA; Regression analysis",
+    "research_topics": "Determinants, risks and impacts",
+    "research_context": "Public/social security",
+    "analysis_level": "Micro",
+    "geographical_context": "United Kingdom",
+    "government_level": "National",
+    "theoretical_background": "None specified",
+    "technology_discussed": "Artificial intelligence",
+    "research_description": "The study explores UK citizens' perceptions of AI involvement in public sector decision-making. It investigates how citizens view the legitimacy, decisional weight, and the advisory role of AI compared to human decision-makers like politicians, citizens, and experts. The research reveals a general preference for AI to provide input rather than take full decisional control, with findings indicating a perception of higher output legitimacy for AI in low ideologically charged decisions.",
+    "research_results": "Citizens prefer AI to have an advisory role in public sector decisions rather than a full decision-making role. The findings show that AI is perceived to contribute to the efficiency of decision-making, especially in low ideologically charged contexts, though skepticism persists regarding its involvement in more ideologically charged decisions.",
+    "future_research": "Future research could explore how perceptions of AI involvement in decision-making vary across different cultural contexts and levels of trust in public governance."
+}

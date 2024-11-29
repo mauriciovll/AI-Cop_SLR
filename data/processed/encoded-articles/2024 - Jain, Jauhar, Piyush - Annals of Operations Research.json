@@ -1,0 +1,17 @@
+{
+    "title": "A machine learning-based framework for contractor selection and order allocation in public construction projects",
+    "doi_number": "10.1007/s10479-024-05898-6",
+    "research_approach": "Quantitative",
+    "research_method": "Case study",
+    "analysis_techniques": "Machine learning; Statistical analysis",
+    "research_topics": "Applications and use cases",
+    "research_context": "Public procurement/construction",
+    "analysis_level": "Meso",
+    "geographical_context": "India",
+    "government_level": "National",
+    "theoretical_background": "Decision theory",
+    "technology_discussed": "Machine learning",
+    "research_description": "This paper proposes a machine learning-based framework for contractor selection and order allocation in public construction projects. The framework evaluates sustainability, risk, and safety factors while optimizing the contractor selection process.",
+    "research_results": "The framework improves the efficiency of contractor selection by automating the evaluation process and considering multiple factors such as sustainability and risk, leading to more informed decisions.",
+    "future_research": "Future research could extend the framework to include other public procurement domains and assess its scalability across different regions and types of construction projects."
+}

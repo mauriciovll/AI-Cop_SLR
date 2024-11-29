@@ -1,0 +1,17 @@
+{
+    "title": "Paper vs. practice: How legal and ethical frameworks influence public sector data professionals in the Netherlands",
+    "doi_number": "10.1016/j.patter.2022.100604",
+    "research_approach": "Qualitative",
+    "research_method": "Case study",
+    "analysis_techniques": "Semi-structured interviews; Field notes; Document analysis",
+    "research_topics": "Implementation and governance",
+    "research_context": "Public management",
+    "analysis_level": "Meso",
+    "geographical_context": "Netherlands",
+    "government_level": "Local; National",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Algorithms; Data governance",
+    "research_description": "The article examines how ethical and legal frameworks influence the everyday practices of public sector data professionals in the Netherlands. It focuses on two cases: municipalities and the Netherlands Police. The authors explore the gap between high-level frameworks and their practical application in day-to-day decision making.",
+    "research_results": "The study finds a significant disconnect between legal and ethical frameworks and actual practices. Data professionals rely on discretion and informal practices due to the lack of concrete guidance from the frameworks. The article highlights the need for greater data literacy and operationalization of these frameworks.",
+    "future_research": "Future research should explore how data literacy can be mainstreamed across public sector organizations and how ethical and legal frameworks can be better operationalized to influence everyday practices."
+}

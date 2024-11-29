@@ -1,0 +1,17 @@
+{
+  "title": "Making Sense of AI Benefits: A Mixed-method Study in Canadian Public Administration",
+  "doi_number": "10.1007/s10796-024-10475-0",
+  "research_approach": "Mixed Methods",
+  "research_method": "Survey; Case/Field experiment",
+  "analysis_techniques": "PLS-SEM; Interviews; Simulation/experiment",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public administration",
+  "analysis_level": "Meso",
+  "geographical_context": "Canada",
+  "government_level": "National",
+  "theoretical_background": "Institutional theory; Sensemaking theory",
+  "technology_discussed": "Artificial intelligence; Machine learning; Natural language processing",
+  "research_description": "This paper explores factors that affect the sensemaking of AI benefits in Canadian public administration using mixed methods. The study includes a PLS-SEM analysis with 272 participants and interviews with 38 participants, investigating the effects of institutional pressures and consultant influence on AI adoption.",
+  "research_results": "Service coercive pressures significantly impact perceived AI benefits, while consultant pressures are key drivers of institutional pressures. A sensemaking model is developed, showing how institutional pressures influence AI adoption.",
+  "future_research": "Future research could explore AI adoption in different public sectors or expand the sensemaking model to other technology innovations."
+}

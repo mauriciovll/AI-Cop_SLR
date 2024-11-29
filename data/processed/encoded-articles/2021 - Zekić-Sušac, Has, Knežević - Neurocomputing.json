@@ -1,0 +1,17 @@
+{
+  "title": "Predicting the energy cost of public buildings using artificial neural networks, CART, and random forest",
+  "doi_number": "10.1016/j.neucom.2021.01.104",
+  "research_approach": "Quantitative",
+  "research_method": "Case study",
+  "analysis_techniques": "Artificial neural networks (ANN); CART; Random forest",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management/energy efficiency",
+  "analysis_level": "Meso",
+  "geographical_context": "Croatia",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Artificial neural networks; Decision trees; Random forest",
+  "research_description": "The study applies machine learning techniques, including ANN, CART, and random forest, to predict the energy costs of public buildings in Croatia. It uses real data from public sector buildings to model energy consumption and cost prediction.",
+  "research_results": "The results indicate that machine learning models, particularly random forest, offer a reliable approach to forecasting energy consumption and costs. These models provide a basis for more efficient energy management in public buildings.",
+  "future_research": "Future research should explore the application of these machine learning models in other contexts, including different geographic regions and public infrastructure sectors."
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Sociotechnical Envelopment of Artificial Intelligence: An Approach to Organizational Deployment of Inscrutable Artificial Intelligence Systems",
+  "doi_number": "10.17705/1jais.00664",
+  "research_approach": "Qualitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Document analysis; Interviews",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public management/Artificial Intelligence",
+  "analysis_level": "Meso",
+  "geographical_context": "Denmark",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Artificial Intelligence; Machine learning",
+  "research_description": "This paper presents the concept of sociotechnical envelopment as a method to safely and responsibly deploy inscrutable AI systems, particularly focusing on the interaction between social and technical factors. The authors provide an empirical case study of the Danish Business Authority (DBA) and their use of AI in public management, particularly focusing on governance challenges in the deployment of complex AI systems.",
+  "research_results": "The DBA successfully enveloped AI models in a way that balances the risks of inscrutability with performance benefits. The study highlights how boundary, training data, and input-output envelopment methods can be used to mitigate risks and manage the trade-offs between explainability and performance.",
+  "future_research": "Further exploration of envelopment methods is necessary, particularly to address the challenges of deploying AI in complex public sector environments with various stakeholders. Additionally, more empirical research is needed to validate the sociotechnical envelopment framework in other sectors."
+}

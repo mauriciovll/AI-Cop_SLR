@@ -1,0 +1,17 @@
+{
+  "title": "Fusing domain knowledge with machine learning: A public sector perspective",
+  "doi_number": "10.1016/j.jsis.2024.101848",
+  "research_approach": "Qualitative",
+  "research_method": "Case/Field study",
+  "analysis_techniques": "Document analysis; Semi-structured interviews",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public services/social welfare",
+  "analysis_level": "Meso",
+  "geographical_context": "Sweden",
+  "government_level": "National and Local",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Machine Learning; Natural Language Processing",
+  "research_description": "This study examines the fusion of domain knowledge with machine learning (ML) in the Swedish public sector, highlighting mechanisms such as consolidation, algorithmic mediation, and naturalization. The authors explore two case studies—one in social services and another at the Swedish Tax Agency—focusing on how ML is integrated with existing knowledge structures to enhance decision-making processes.",
+  "research_results": "The study identifies that while ML can augment decision-making, challenges such as data quality, labeling processes, and algorithmic mediation are critical for successful integration. The study contributes to understanding how domain knowledge is formalized and aligned with ML systems.",
+  "future_research": "Future research could focus on exploring the long-term impacts of ML integration in public sector governance and the challenges related to transparency and accountability."
+}

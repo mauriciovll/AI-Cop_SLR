@@ -1,0 +1,17 @@
+{
+  "title": "How to be responsible in all the steps of a data science pipeline: The case of the Italian public sector",
+  "doi_number": "10.1016/j.patter.2021.100393",
+  "research_approach": "Qualitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Document analysis; Comparative analysis",
+  "research_topics": "Implementation and governance",
+  "research_context": "Public management",
+  "analysis_level": "Macro",
+  "geographical_context": "Italy",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Artificial Intelligence; Data science",
+  "research_description": "This paper discusses how to implement responsible data science pipelines in the Italian public sector, focusing on the ethical, privacy, and quality concerns at each stage of the data science process. It covers topics such as responsible data access, data analysis, and the role of data scientists in the public sector, particularly in the fiscal and statistical domains.",
+  "research_results": "The study highlights the importance of ethical and responsible data handling throughout the entire data science pipeline, particularly in sensitive domains such as public administration. It proposes a standardized approach to data science in the public sector, including trust management as a cross-cutting function.",
+  "future_research": "Further research should explore the integration of privacy-preserving techniques in data science pipelines and the development of frameworks for ensuring fairness and transparency in algorithmic decision-making."
+}

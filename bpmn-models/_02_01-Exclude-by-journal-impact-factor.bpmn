@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_11szdce" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.10.0-nightly.20210829" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+  <bpmn:process id="Process_0jfxnwj" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" name="Consolidated sample - 784">
+      <bpmn:outgoing>Flow_1en678d</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_1en678d" sourceRef="StartEvent_1" targetRef="Activity_103lis3" />
+    <bpmn:sequenceFlow id="Flow_18umsnk" sourceRef="Activity_103lis3" targetRef="Activity_04isdy9" />
+    <bpmn:endEvent id="Event_1aoh62y" name="JIF-Q1 article database - 262">
+      <bpmn:incoming>Flow_1b5vt5b</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1r0m68y" sourceRef="Activity_0u1oqbl" targetRef="Activity_03bslf9" />
+    <bpmn:scriptTask id="Activity_103lis3" name="Generate journals list">
+      <bpmn:incoming>Flow_1en678d</bpmn:incoming>
+      <bpmn:outgoing>Flow_18umsnk</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:manualTask id="Activity_0u1oqbl" name="Exclude from reference manager based on journals-JIF-Q1 file">
+      <bpmn:incoming>Flow_076oorv</bpmn:incoming>
+      <bpmn:outgoing>Flow_1r0m68y</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:dataStoreReference id="DataStoreReference_1jgb1us" name="n = 262" />
+    <bpmn:sequenceFlow id="Flow_1b5vt5b" sourceRef="Activity_03bslf9" targetRef="Event_1aoh62y" />
+    <bpmn:manualTask id="Activity_03bslf9" name="Export JIF-Q1 article database">
+      <bpmn:incoming>Flow_1r0m68y</bpmn:incoming>
+      <bpmn:outgoing>Flow_1b5vt5b</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:sequenceFlow id="Flow_0v3p1hx" sourceRef="Activity_04isdy9" targetRef="Activity_0zdrc71" />
+    <bpmn:userTask id="Activity_04isdy9" name="Select / export journals list in JCR webpage">
+      <bpmn:incoming>Flow_18umsnk</bpmn:incoming>
+      <bpmn:outgoing>Flow_0v3p1hx</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_076oorv" sourceRef="Activity_0zdrc71" targetRef="Activity_0u1oqbl" />
+    <bpmn:scriptTask id="Activity_0zdrc71" name="Generate journals JIF-Q1 file">
+      <bpmn:incoming>Flow_0v3p1hx</bpmn:incoming>
+      <bpmn:outgoing>Flow_076oorv</bpmn:outgoing>
+    </bpmn:scriptTask>
+    <bpmn:group id="Group_0gxgvul" categoryValueRef="CategoryValue_0sd651n" />
+  </bpmn:process>
+  <bpmn:category id="Category_0r6yaro">
+    <bpmn:categoryValue id="CategoryValue_0sd651n" value="2.1. Exclude by journal impact factor" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0jfxnwj">
+      <bpmndi:BPMNEdge id="Flow_076oorv_di" bpmnElement="Flow_076oorv">
+        <di:waypoint x="620" y="167" />
+        <di:waypoint x="640" y="167" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0v3p1hx_di" bpmnElement="Flow_0v3p1hx">
+        <di:waypoint x="500" y="167" />
+        <di:waypoint x="520" y="167" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1b5vt5b_di" bpmnElement="Flow_1b5vt5b">
+        <di:waypoint x="860" y="167" />
+        <di:waypoint x="892" y="167" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1r0m68y_di" bpmnElement="Flow_1r0m68y">
+        <di:waypoint x="740" y="167" />
+        <di:waypoint x="760" y="167" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_18umsnk_di" bpmnElement="Flow_18umsnk">
+        <di:waypoint x="380" y="167" />
+        <di:waypoint x="400" y="167" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1en678d_di" bpmnElement="Flow_1en678d">
+        <di:waypoint x="248" y="167" />
+        <di:waypoint x="280" y="167" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="#000" bioc:fill="#fff">
+        <dc:Bounds x="212" y="149" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="197" y="192" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1aoh62y_di" bpmnElement="Event_1aoh62y">
+        <dc:Bounds x="892" y="149" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="874" y="192" width="74" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1t18n43_di" bpmnElement="Activity_103lis3">
+        <dc:Bounds x="280" y="127" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1n8tb0p_di" bpmnElement="Activity_0u1oqbl">
+        <dc:Bounds x="640" y="127" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_174osdo_di" bpmnElement="Activity_03bslf9">
+        <dc:Bounds x="760" y="127" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0a6k8ex_di" bpmnElement="Activity_04isdy9">
+        <dc:Bounds x="400" y="127" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0fmsfze_di" bpmnElement="Activity_0zdrc71">
+        <dc:Bounds x="520" y="127" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_1jgb1us_di" bpmnElement="DataStoreReference_1jgb1us" bioc:stroke="#000" bioc:fill="#fff">
+        <dc:Bounds x="826" y="85" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="832" y="112" width="38" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_0gxgvul_di" bpmnElement="Group_0gxgvul">
+        <dc:Bounds x="180" y="70" width="780" height="170" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="187" y="76" width="76" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

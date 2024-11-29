@@ -1,0 +1,72 @@
+{
+    "type":"function",
+    "function":{
+        "name":"encode_article",
+        "description": "encodes articles according to encoding parameters",
+        "parameters":{
+            "type":"object",
+            "properties":{
+                "title":{
+                    "type":"string",
+                    "description":"Article title."
+                },
+                "doi_number":{
+                    "type":"string",
+                    "description":"DOI number of the article. The standard layout is like these examples: '10.1016/j.techfore.2023.123043', '10.1080/21582041.2023.2293822', '10.1016/j.giq.2021.101664', '10.1080/14719037.2021.1972681'."
+                },
+                "research_approach":{
+                    "type":"string",
+                    "description":"Methodological approach used in the research. It can be: 'Qualitative', 'Quantitative' or 'Mix methods'."
+                },
+                "research_method":{
+                    "type":"string",
+                    "description":"Research method used to conduct the study, which may be: 'Design Science Research (DSR)', 'Sampling study (Survey)', 'Case/field study', 'Ethnographic/phenomenological study', 'Narrative study', 'Grounded Theory', 'Others' (in the case of others, put in parentheses after 'Other' the methodology used). In case of more than one, separate the research methods used by ';'."
+                },
+                "analysis_techniques":{
+                    "type":"string",
+                    "description":"Analysis techniques/tools used in the study, which may be: 'Classification analysis', 'Correlational analysis', 'Descriptive analysis', 'Content analysis', 'Discourse analysis', 'Regression analysis', 'Analysis of variance (ANOVA)', 'Factor analysis', 'Interpretative analysis (IPA)', 'Longitudinal analysis', 'Narrative analysis', 'Advanced predictive analysis', 'Thematic analysis', 'Data coding', 'Focus group interview', 'In-depth interview', 'Statistical modeling', 'Structural modeling (SEM)', 'Simulation/experiment', 'Exploratory factor analysis (EFA)', 'Others' (in the case of others, put in parentheses after 'Other' the analysis techniques used). In case of more than one, separate the analysis techniques used by ';'."
+                },
+                "research_topics":{
+                    "type":"string",
+                    "description":"It concerns the subject addressed in the article within the discussed theme, and may be: 'Applications and use cases' (articles that discuss the application of some technology in an applied case), 'Implementation and governance' (articles that deal with the implementation of emerging technologies and discussions on governance in relation to these technologies), 'Determinants, risks and impacts' (articles that discuss the determining factors of success, the risks and impacts of the use of emerging technologies), 'Theoretical studies' (studies that discuss the theme in theoretical essays), 'Ethical and legal implications' (articles that address discussions regarding ethics and legislation related to the use of emerging technologies), 'Others' (in the case of others, put in parentheses after 'Other' the research topics addressed)."
+                },
+                "research_context":{
+                    "type":"string",
+                    "description":"Public sector context in which the study is developed, which may be: public services (describe according to these examples: 'public services/general', 'public services/health', 'public services/education', 'public services/security', etc.), public management (describe according to these examples: 'public management/general', 'public management/human resources', 'public management/public procurement', 'public management/budget and finance', etc.), 'control and governance', 'local government', 'legislative sector', 'judicial sector', 'Others' (in the case of others, put in parentheses after 'Other' the research context addressed)."
+                },
+                "analysis_level": {
+                    "type": "string",
+                    "description": "Level of analysis discussed in the article, based in Creado et. al. (2024). It may be: Macro (institutional/governmental impact), Meso (organizational impact), or Micro (individual impact on employees, citizens, or other stakeholders)."
+                },
+                "geographical_context":{
+                    "type":"string",
+                    "description":"Describes the country in which the study was conducted. If there is more than one country, enter 'several'; if there is no country specified, enter 'not specified'. Examples: 'Brazil', 'United States of America', 'Germany', etc.)"
+                },
+                "government_level":{
+                    "type":"string",
+                    "description":"Level of government at which the study is developed, which may be: 'National', 'Intermediate' (in the case of State, province, etc.), 'Local' (in the case of municipal level or similar), 'Others' (in the case of others, put in parentheses after 'Other' the government level related)."
+                },
+                "theoretical_background":{
+                    "type":"string",
+                    "description":"Only for cases in which the authors explicitly state the theory or theories used as a basis for the study, which may be: 'Agency Theory', 'Public Choice Theory', 'Institutional Theory', 'Attention-based view of the organization (ABV)', 'Behavioral reasoning theory', 'Upper Echelons Theory', 'Theory of administrative evil', 'Public Value Theory' (Moore), 'Others' (in the case of others, put in parentheses after 'Other' which theory/theories were used). In the case of more than one, separate the theories using ';'. If the authors have not explicitly stated the theory, use 'Unspecified'."
+                },
+                "technology_discussed":{
+                    "type":"string",
+                    "description":"Technology discussed in the article, which may be: Artificial Intelligence (describe according to these examples: 'Artificial Intelligence/General', 'Artificial Intelligence/machine learning', 'Artificial Intelligence/deep learning', 'Artificial Intelligence/neural network', etc.), 'Data science', 'Big-data', 'Exogenous data', 'Data Analytics', 'Data Visualization', 'Process mining/automation', 'Real Time Analytics', 'Continuous Audit/Monitoring', 'Conversational AI (Chatbot)', 'Blockchain', 'Internet of Things (IoT)', 'Natural Language Processing', 'Others' (in the case of others, put in parentheses after 'Other' which technology is discussed)."
+                },
+                "research_description":{
+                    "type":"string",
+                    "description":"Describe the study in up to 250 words. Consider the context of the research, its objectives, the theoretical background (if formally presented) and its research methodology."
+                },
+                "research_results":{
+                    "type":"string",
+                    "description":"Describe, in up to 250 words, the highlights and the main results founded by the authors."
+                },
+                "future_research":{
+                    "type":"string",
+                    "description":"Describe, in up to 250 words, the suggestions for future research presented by the authors."
+                }                
+            }
+
+        }
+    }}

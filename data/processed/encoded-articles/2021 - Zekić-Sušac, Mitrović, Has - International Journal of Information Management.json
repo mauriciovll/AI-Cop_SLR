@@ -1,0 +1,17 @@
+{
+  "title": "Machine learning based system for managing energy efficiency of public sector as an approach towards smart cities",
+  "doi_number": "10.1016/j.ijinfomgt.2020.102074",
+  "research_approach": "Quantitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Machine learning; Predictive modeling; Random forest; Decision trees",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management/Energy",
+  "analysis_level": "Macro",
+  "geographical_context": "Croatia",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Big Data; Machine learning; IoT",
+  "research_description": "This paper develops a machine learning-based intelligent system for managing energy efficiency in public sector buildings, which is part of a smart city concept. The study uses predictive models, including Random Forest and decision trees, to optimize energy consumption.",
+  "research_results": "The most accurate model was produced by the Random Forest method, demonstrating potential for optimizing energy efficiency in public sector buildings. The system integrates IoT networks and Big Data technologies for real-time data collection and analysis.",
+  "future_research": "Future research could expand the model to include renewable energy sources and explore its application across different sectors and countries."
+}

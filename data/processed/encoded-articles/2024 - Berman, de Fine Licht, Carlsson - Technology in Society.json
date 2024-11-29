@@ -1,0 +1,17 @@
+{
+    "title": "Trustworthy AI in the public sector: An empirical analysis of a Swedish labor market decision-support system",
+    "doi_number": "10.1016/j.techsoc.2024.102471",
+    "research_approach": "Qualitative",
+    "research_method": "Case/field study",
+    "analysis_techniques": "Document analysis; Interviews",
+    "research_topics": "Implementation and governance",
+    "research_context": "Public services/employment",
+    "analysis_level": "Meso",
+    "geographical_context": "Sweden",
+    "government_level": "National",
+    "theoretical_background": "Institutional Theory; Resource-Based View (RBV); Ambidexterity Theory",
+    "technology_discussed": "Artificial Intelligence",
+    "research_description": "This paper investigates the deployment of AI in the Swedish Public Employment Service (PES), focusing on trustworthy AI in decision-making. It analyzes the gaps between theoretical ambitions and practical outcomes, particularly in transparency and interpretability.",
+    "research_results": "The study found that while AI improves decision-making efficiency, it faces challenges related to transparency and stakeholder engagement. Lack of technical understanding and economic pressures affect the system's trustworthiness.",
+    "future_research": "Further studies should explore ways to involve jobseekers more actively in the decision-making process and improve AI literacy among personnel."
+}

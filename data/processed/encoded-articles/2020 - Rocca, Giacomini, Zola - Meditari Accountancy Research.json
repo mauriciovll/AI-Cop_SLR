@@ -1,0 +1,17 @@
+{
+  "title": "Environmental disclosure and sentiment analysis: state of the art and opportunities for public-sector organisations",
+  "doi_number": "10.1108/MEDAR-09-2019-0563",
+  "research_approach": "Mixed Methods",
+  "research_method": "Case study",
+  "analysis_techniques": "Sentiment analysis; Natural Language Processing (NLP); Latent Dirichlet Allocation (LDA)",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public management",
+  "analysis_level": "Meso",
+  "geographical_context": "Italy",
+  "government_level": "Local",
+  "theoretical_background": "Organizational legitimacy theory",
+  "technology_discussed": "Artificial Intelligence",
+  "research_description": "The paper investigates the use of social media by local governments in Italy to disclose environmental actions and plans. The authors applied sentiment analysis and topic modeling to understand citizens' reactions to these environmental disclosures.",
+  "research_results": "The study finds that local governments are increasingly using social media for environmental disclosure to gain organizational legitimacy. However, there is often a divergence between what local governments post and what citizens are interested in.",
+  "future_research": "Future research should explore how social media can be better utilized to create more interactive and meaningful dialogic accountability frameworks in public-sector organizations."
+}

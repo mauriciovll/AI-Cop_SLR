@@ -1,0 +1,17 @@
+{
+    "title": "Exploring the individual adoption of human resource analytics: Behavioural beliefs and the role of machine learning characteristics",
+    "doi_number": "10.1016/j.techfore.2024.123709",
+    "research_approach": "Qualitative",
+    "research_method": "Case study",
+    "analysis_techniques": "Content analysis; Focused interviews",
+    "research_topics": "Determinants, risks and impacts",
+    "research_context": "Public management/human resources",
+    "analysis_level": "Micro",
+    "geographical_context": "Germany",
+    "government_level": "National",
+    "theoretical_background": "Theory of Planned Behaviour",
+    "technology_discussed": "Machine learning; Explainable AI",
+    "research_description": "The article investigates behavioural beliefs influencing individual adoption of machine learning-based human resource analytics (HRA) in a public sector organisation. It explores how transparency, fairness, and other characteristics of machine learning affect user attitudes and adoption.",
+    "research_results": "The study identifies key factors like transparency and personal concerns as influential in HRA adoption. The authors suggest extending the framework of individual adoption by incorporating machine learning characteristics such as transparency and fairness.",
+    "future_research": "Future studies could further explore the effect of self-efficacy and organisational culture in HRA adoption and the long-term impact of machine learning characteristics in HR management."
+}

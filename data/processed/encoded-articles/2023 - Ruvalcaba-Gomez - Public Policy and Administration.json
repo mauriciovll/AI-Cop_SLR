@@ -1,0 +1,17 @@
+{
+    "title": "Systematic and axiological capacities in artificial intelligence applied in the public sector",
+    "doi_number": "10.1177/09520767231170321",
+    "research_approach": "Quantitative",
+    "research_method": "Survey",
+    "analysis_techniques": "Exploratory Factor Analysis (EFA); Descriptive statistics",
+    "research_topics": "Determinants, risks and impacts",
+    "research_context": "Public management",
+    "analysis_level": "Meso",
+    "geographical_context": "Mexico",
+    "government_level": "Local",
+    "theoretical_background": "Smart governance theory; Algorithmic government",
+    "technology_discussed": "Artificial intelligence",
+    "research_description": "The paper describes and analyzes AI capabilities in the public sector through a survey conducted with public officials in Mexico. The results classify AI capabilities into systematic and axiological factors, based on public officials' perception.",
+    "research_results": "AI capabilities in the public sector are classified into systematic factors (monitoring, analyzing, interacting, remembering, anticipating) and axiological factors (acting, feeling, moralizing, creating, deciding).",
+    "future_research": "Future research could explore the application of these categories to understand the broader implications of AI adoption in other public sectors."
+}

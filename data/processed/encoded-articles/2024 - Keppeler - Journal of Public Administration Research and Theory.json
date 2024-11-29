@@ -1,0 +1,17 @@
+{
+    "title": "No Thanks, Dear AI! Understanding the Effects of Disclosure and Deployment of Artificial Intelligence in Public Sector Recruitment",
+    "doi_number": "10.1093/jopart/muad009",
+    "research_approach": "Quantitative",
+    "research_method": "Case/Field experiment",
+    "analysis_techniques": "Linear regression; Exploratory analysis; ANOVA; Simulation/experiment",
+    "research_topics": "Implementation and governance",
+    "research_context": "Public administration",
+    "analysis_level": "Micro",
+    "geographical_context": "Germany",
+    "government_level": "National",
+    "theoretical_background": "Signaling theory; Algorithm aversion",
+    "technology_discussed": "Artificial intelligence",
+    "research_description": "This study analyzes the disclosure effects and explores the deployment of an AI application in public sector recruitment through a preregistered field experiment. The results show that disclosing AI use leads to less interest among job candidates, while the AI application shows potential efficiency gains in recruitment processes.",
+    "research_results": "The findings indicate that disclosing AI applications significantly decreases candidates' interest in job offers. However, the AI application demonstrates efficiency in predicting person-job fit, providing potential benefits for public sector recruitment.",
+    "future_research": "Future studies could further investigate the interplay between AI disclosure, algorithm aversion, and the effectiveness of AI applications in public sector contexts."
+}

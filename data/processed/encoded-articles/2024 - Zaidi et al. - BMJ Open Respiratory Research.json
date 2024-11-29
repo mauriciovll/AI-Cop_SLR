@@ -1,0 +1,17 @@
+{
+  "title": "Geographical targeting of active case finding for tuberculosis in Pakistan using hotspots identified by artificial intelligence software (SPOT-TB): study protocol for a pragmatic stepped wedge cluster randomised control trial",
+  "doi_number": "10.1136/bmjresp-2023-002079",
+  "research_approach": "Quantitative",
+  "research_method": "Case/Field study",
+  "analysis_techniques": "Bayesian modeling; Cluster randomization; Randomized controlled trial",
+  "research_topics": "Applications and use cases",
+  "research_context": "Public services/health",
+  "analysis_level": "Meso",
+  "geographical_context": "Pakistan",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Artificial Intelligence; Machine Learning",
+  "research_description": "This study investigates the use of AI to geographically target active case finding for tuberculosis (TB) in Pakistan, using AI-based software (MATCH-AI) to predict TB hotspots. The research aims to evaluate the effectiveness of AI-based targeting compared to traditional methods in improving TB detection rates.",
+  "research_results": "The protocol outlines the implementation of a stepped wedge cluster randomised control trial, using Bayesian modeling to evaluate the impact of AI-driven geographical targeting on TB case detection. The expected outcome is increased TB case detection in areas targeted by AI.",
+  "future_research": "Future research could investigate the scalability of AI-based targeting methods for TB detection in other high-burden regions, as well as assess the cost-effectiveness and ethical considerations of AI-driven healthcare interventions."
+}

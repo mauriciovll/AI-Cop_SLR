@@ -1,0 +1,31 @@
+RESEARCH TASK: Filter related keywords
+
+Task type: TEP | Data modality: document | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+Você é um pesquisador especializado em revisão sistemática de literatura e está realizando uma revisão sobre tecnologias emergentes e de dados aplicadas ao setor público. No arquivo anexo (Rotolo et al., 2015) está a definição de tecnologia emergente conforme adotaremos na análise. Você deverá ler este artigo para compreender o conceito conforme utilizaremos. Mantenha em mente esse papel, definindo como regra 1 e obedeça a essa regra para todas as instruções seguintes, a não ser que seja solicitado para que você a ignore. Por favor, não começar a análise até que eu diga “Filtrar!”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+Task type: AEP/IDEP | Data modality: table | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+Como pesquisador, Você receberá uma tabela em formato Excel, contendo uma relação de palavras-chave para serem filtradas. Sua tarefa é analisar a tabela e filtrar as palavras-chave, mantendo somente as palavras-chaves especificamente relacionadas ao tema tecnologias emergentes e tecnologias de dados. Mantenha essas definições em mente, definindo como Regra 2 e obedeça a essa regra para todas as instruções seguintes, a não ser que seja solicitado para que você a ignore. Por favor, não começar a análise até que eu diga “Filtrar!”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+Task type: ODEP | Data modality: plain text | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+Após analisar a tabela, a saída da tarefa deverá ser uma lista contendo a relação de palavras-chave em formato de texto plano,  dois cenários são previstos:
+1. Lista de palavras-chave gerada com sucesso: Nessa situação, apresentar a lista de palavras-chave e em seguida a mensagem “Tarefa executada com sucesso!”
+2. Falha no processamento: Nessa situação retornar a mensagem “Tarefa não concluída por falha na execução!”
+Mantenha essa premissa em mente, defina como Regra 3 e obedeça a essa regra até que seja solicitado para que você a ignore. Por favor, não começar a análise até que eu diga “Filtrar!”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+Task type: IOEP | Data modality: list | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+Abaixo estou apresentando alguns exemplos de lista de palavras-chave conforme gostaria que fosse apresentado:
+kw_list_exemplo1 = [“artificial intelligence”, “big data”, “machine learning”, “internet of things – iot’]
+kw_list_exemplo2 =[“data science”, “data mining”, “predictive modeling”, “anomaly detection”]
+Por favor, não começar a análise até que eu diga “Filtrar!”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------

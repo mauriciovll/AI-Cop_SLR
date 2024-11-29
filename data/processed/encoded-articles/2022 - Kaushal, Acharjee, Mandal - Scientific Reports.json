@@ -1,0 +1,17 @@
+{
+    "title": "Machine learning based attribution mapping of climate related discussions on social media",
+    "doi_number": "10.1038/s41598-022-22034-1",
+    "research_approach": "Quantitative",
+    "research_method": "Case study",
+    "analysis_techniques": "K-means clustering; Random forest; Partial correlation analysis",
+    "research_topics": "Applications and use cases",
+    "research_context": "Public management/information technology",
+    "analysis_level": "Meso",
+    "geographical_context": "Global",
+    "government_level": "International",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Machine learning; Natural Language Processing (NLP)",
+    "research_description": "The study analyzes social media discussions related to climate change using machine learning techniques to identify and cluster themes. It utilizes posts from Reddit to determine the gaps in communication by policymakers and the impact of climate-related discussions.",
+    "research_results": "The analysis shows that the climate science community has influenced discussions on causes and effects of climate change, while public administration has not effectively communicated the drivers of climate change. The study highlights the importance of improved communication strategies to bridge these gaps.",
+    "future_research": "Future research should focus on how different stakeholders, including public administration and climate activists, can use machine learning tools to better understand and respond to public sentiment on climate issues."
+}

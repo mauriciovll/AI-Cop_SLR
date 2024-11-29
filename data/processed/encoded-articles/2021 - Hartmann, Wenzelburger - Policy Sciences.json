@@ -1,0 +1,17 @@
+{
+  "title": "Uncertainty, risk and the use of algorithms in policy decisions: a case study on criminal justice in the USA",
+  "doi_number": "10.1007/s11077-020-09414-y",
+  "research_approach": "Qualitative",
+  "research_method": "Case/field study",
+  "analysis_techniques": "Document analysis; Interviews; Case comparison",
+  "research_topics": "Ethical and legal implications",
+  "research_context": "Judicial sector",
+  "analysis_level": "Meso",
+  "geographical_context": "USA",
+  "government_level": "National",
+  "theoretical_background": "Unspecified",
+  "technology_discussed": "Algorithms; Machine learning",
+  "research_description": "This article examines the use of algorithms in criminal justice decision-making in the USA, particularly the implementation of the COMPAS system for risk assessment in Eau Claire County. The study explores the role of algorithms in reducing uncertainty and the potential for blame avoidance by decision-makers in the criminal justice system.",
+  "research_results": "The study found that the use of algorithms like COMPAS significantly reduces uncertainty in decision-making, but did not find clear evidence of blame avoidance behavior. The COMPAS tool was seen as providing valuable evidence for decisions, but concerns about algorithmic bias and transparency were also raised.",
+  "future_research": "Further research should investigate the long-term implications of algorithmic decision-making in criminal justice, particularly in terms of fairness, accountability, and the effects on sentencing outcomes."
+}

@@ -1,0 +1,94 @@
+RESEARCH TASK: Setup encoding chat
+
+Task type: TEP | Data modality: json file | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+Você é um pesquisador especializado em revisão sistemática de literatura e está realizando uma revisão sobre tecnologias emergentes e de dados aplicadas ao setor público. No arquivo json anexo (_2_encoding_parameters.json) estão definidos os parâmetros de codificação. Você deverá ler este arquivo para compreender os parâmetros de codificação. Mantenha em mente esse papel, definindo como regra 1 e obedeça a essa regra para todas as instruções seguintes, a não ser que seja solicitado para que você a ignore. Por favor, não começar a análise até que eu diga “codificar”. Ao invés disso, apresente a relação de parâmetros e retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+
+Task type: TEP | Data modality: document | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+No documento anexo (Criado et al, 2024) está a definição de nível de análise que iremos adotar para o critério de codificação 8. Você deverá ler este arquivo para compreender esse critério. Por favor, não começar a análise até que eu diga “codificar”. Ao invés disso, apresente a descrição dos níveis de análise e retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+
+Task type: IDEP | Data modality: none | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+A seguir você receberá artigos para codificação em formato pdf. Sua tarefa é analisar cada um desses artigos, utilizando como referência os critérios de codificação apresentados no arquivo de parâmetros em json (_2_encoding_parameters.json). Mantenha em mente essa tarefa. Por favor, não começar a análise até que eu diga “codificar”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+Task type: ODEP | Data modality: none | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+A saída da tarefa deverá ser feita por meio de um arquivo em formato json, estruturado com base nos critérios de codificação apresentados no arquivo json de referência e nomeado de forma idêntica ao documento pdf analisado. Os Seguintes passos devem ser rigorosamente seguidos:
+
+1. Ler o artigo pdf apresentado.
+2. Codificar o artigo conforme o json de parâmetros de codificação.
+3. Apresentar o resultado no chat para avaliação.
+4. Aguardar aprovação ou sugestões de melhoria.
+5. Gerar arquivo json de saída para download.
+
+Mantenha essa premissa em mente. Por favor, não começar a análise até que eu anexe um documento a ser analisado e diga “codificar” Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+Task type: ODEP | Data modality: none | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+O nome do  arquivo de saíde deve ser idêntico ao nome do arquivo de entrada. No caso do nome do arquivo de saída deverá conter .json. Um exemplo de nome de arquivo de saída: "2024-Selten, Klievink - Government Information Quarterly.json". Mantenha em mente essa premisa. Por favor, não começar a análise até que eu anexe um documento a ser analisado e diga “codificar” Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------
+
+Task type: IOEP | Data modality: json | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+Abaixo segue uma lista de recomendações feitas por mim para aprimoramento das análises. Seguir essas recomendações no decorrer das análises. Mantenha essa premissa em mente. Por favor, não começar a análise até que eu anexe um documento a ser analisado e diga “codificar”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+
+Recomendações:
+1. Critérios de Codificação:
+Research topics: Priorizar os seguintes tópicos de pesquisa:
+- Applications and use cases
+- Implementation and governance
+- Determinants, risks and impacts
+- Theoretical studies
+- Ethical and legal implications
+- Others (especificar entre parênteses o tema abordado, se for o caso).
+
+2. Análise e Técnicas:
+Research method: Incluir métodos como Survey, Case/field study, ou Theoretical study.
+Analysis techniques: Separar todas as técnicas presentes por ponto e vírgula (';'), como Document analysis, Structural Equation Modelling (SEM), Content analysis, Interviews, Focus group, Workshops etc.
+Semi-structured interviews: Incluir como técnica de análise quando mencionado no artigo.
+Public value framework: Não é uma teoria formal. Usar "Unspecified" se o artigo não apresentar uma teoria formalmente definida.
+Document analysis: É uma técnica de análise de dados, não um método de pesquisa.
+
+3. Contexto e Teorias:
+Theoretical background: Usar "Unspecified" se não houver uma teoria formal explicitamente mencionada. Quando houver uma teoria, deve ser incluída corretamente, como Public value theory, se for definida no texto.
+Technology discussed: Incluir apenas as tecnologias emergentes, como Artificial intelligence, Machine learning, Big data, Cloud computing, Real-time analytics. Técnicas de análise não devem ser confundidas com tecnologias emergentes.
+Research context: Definir o contexto corretamente, como Public management, Public services/security, Public procurement, ou Financial and budget management.
+Government level: O nível de governo deve ser corretamente identificado como National, Regional, ou Local.
+Analysis level: Utilizar Meso ou Macro conforme apropriado à escala da discussão no artigo.
+Research approach: Definir corretamente como Qualitative, Quantitative, ou Mixed Methods.
+
+4. Outros Detalhes Importantes:
+Separar elementos múltiplos com ponto e vírgula (';') em todos os critérios, como técnicas de análise ou múltiplos tópicos.
+Survey: É um método de pesquisa e não deve ser considerado técnica de análise.
+Case study: Deve ser usado para estudos empíricos que analisam múltiplos casos.
+Fuzzy cognitive maps: Não é uma tecnologia emergente, mas uma técnica de análise.
+Semi-structured interviews: Incluir como técnica de análise quando mencionado no artigo.
+Public value framework: Não é uma teoria formal. Usar "Unspecified" se o artigo não apresentar uma teoria formalmente definida.
+"Administrative law principles" não é uma teoria formal. Utilizar "Unspecified" no campo "theoretical_background".
+"Content analysis" é uma técnica de análise, não método
+Incluir "semi-structured interviews" como técnica de análise
+Survey: É um método de pesquisa e não deve ser considerado uma técnica de análise.
+Case/field study: Utilizado para estudos empíricos que analisam um caso ou múltiplos casos.
+Fuzzy cognitive maps: Não é uma tecnologia emergente, mas sim uma técnica de análise.
+Revisar teorias: Sempre revisar se a teoria mencionada no texto é formal. Se não for, usar "Unspecified".
+Adicionar novos contextos e níveis de análise: "Public management/information technology" para artigos relacionados a TI no setor público. "Implementation and governance" para artigos que tratam de políticas ou adoção de tecnologias.
+----------------------------------------------------------------------
+
+Task type: IOEP | Data modality: json | Model: GPT-4o | Interface: Open AI’s ChatGPT
+----------------------------------------------------------------------
+Prompt:
+A seguir disponibilizarei exemplos de artigos e arquivos de saída conforme devem ser apresentados. Utilize esses documentos como base para elaboração dos arquivos de saída para cada documento analisado. Mantenha essa premissa em mente. Por favor, não começar a análise até que eu anexe um documento a ser analisado e diga “codificar”. Ao invés disso, apenas retorne a mensagem “Processado – aguardando a próxima entrada.”
+----------------------------------------------------------------------

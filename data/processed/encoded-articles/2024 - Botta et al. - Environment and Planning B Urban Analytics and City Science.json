@@ -1,0 +1,17 @@
+{
+    "title": "Packaging code and data for reproducible research: A case study of journey time statistics",
+    "doi_number": "10.1177/23998083241267331",
+    "research_approach": "Mixed methods",
+    "research_method": "Case/field study",
+    "analysis_techniques": "Document analysis; Interviews; Research and development",
+    "research_topics": "Applications and use cases",
+    "research_context": "Public services/transportation",
+    "analysis_level": "Meso",
+    "geographical_context": "United Kingdom",
+    "government_level": "National",
+    "theoretical_background": "Unspecified",
+    "technology_discussed": "Big Data",
+    "research_description": "This paper explores how governments can maximize the value of open data by packaging them in analysis-ready formats, with a case study of journey time statistics. It highlights the importance of reproducibility and transparency in public sector data use.",
+    "research_results": "The study demonstrated that well-packaged data significantly reduce analysis time and errors. It also underscored the need for standardized formats across datasets.",
+    "future_research": "Future work should focus on improving the efficiency of data formats and exploring the potential for using machine learning techniques to analyze these datasets."
+}
