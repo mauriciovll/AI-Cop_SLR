@@ -39,3 +39,6 @@ Waiting article publication.
 
 ## Contact
 Corresponding author: [Maurício Vasconcellos Leão Lyrio](https://br.linkedin.com/in/maurício-vasconcellos-leão-lyrio-59773220)
+
+## Acknowledgements
+The authors thank the National Council for Scientific and Technological Development – ​​CNPq (Process: 201489/2024-4) for financial support for the research.
