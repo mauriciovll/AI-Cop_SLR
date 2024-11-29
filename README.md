@@ -1,5 +1,8 @@
-# A.I. Co-piloted Sistematic Literature Review - AI-COP-SLR
+<p align="center">
+	<img src="images/logo_ppgcg.png" alt="imagem"> | <img src="images/logo_rutgers.png" alt="imagem">
+</p>
 
+# A.I. Co-piloted Sistematic Literature Review
 ## Project Description
 This repository contains all the source code and data for the article *"Emerging & data technologies applied to public sector: an AI-copiloted systematic literature review"*, written by Maurício Vasconcellos Leão Lyrio, Fabrícia Silva da Rosa, Miklos A. Vasarhelyi and Rogério João Lunkes.
 
