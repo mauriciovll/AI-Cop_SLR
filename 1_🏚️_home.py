@@ -44,12 +44,12 @@ cols = st.columns(4)
 with cols[0]:
     btn_repo = st.button("Git Hub Repository")
     if btn_repo:
-        webbrowser.open_new_tab("https://github.com/mauriciovll/AI-Cop_SLR/tree/main")
+        st.page_link("https://github.com/mauriciovll/AI-Cop_SLR/tree/main")
 
 with cols[1]:
     btn_article = st.button("Article page")
     if btn_article:
-        webbrowser.open_new_tab("https://revistas.pucp.edu.pe/index.php/contabilidadyNegocios/article/view/32270")
+        st.page_link("https://revistas.pucp.edu.pe/index.php/contabilidadyNegocios/article/view/32270")
 
 with cols[2]:
     pass
