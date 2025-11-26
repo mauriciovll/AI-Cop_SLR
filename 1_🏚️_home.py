@@ -45,9 +45,7 @@ with cols[0]:
     st.link_button("Git Hub Repository", "https://github.com/mauriciovll/AI-Cop_SLR/tree/main")
 
 with cols[1]:
-    btn_article = st.button("Article page")
-    if btn_article:
-        st.page_link("https://revistas.pucp.edu.pe/index.php/contabilidadyNegocios/article/view/32270", label="Article")
+    st.link_button("Article Page", "https://revistas.pucp.edu.pe/index.php/contabilidadyNegocios/article/view/32270")
 
 with cols[2]:
     pass
