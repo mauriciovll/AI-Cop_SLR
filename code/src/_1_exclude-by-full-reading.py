@@ -8,7 +8,7 @@ _ = load_dotenv(find_dotenv())
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Carregar tabela de artigos para verificar possibilidade de inclusão
-file_path = 'C:/Users/mauri/OneDrive/Repositorios/AI-Cop_SLR/data/processed/_7_exclude-verification-file.xlsx'
+file_path = '../../data/processed/_7_exclude-verification-file.xlsx'
 articles_df = pd.read_excel(file_path)
 
 # Função para analisar título e resumo usando GPT e incluir na lista de artigos do portfolio
@@ -45,5 +45,5 @@ def include_to_portfolio(title, abstract):
 articles_df['Entra?'] = articles_df.apply(lambda row: include_to_portfolio(row['title'], row['abstract']), axis=1)
 
 # Salvar o resultado em um novo arquivo Excel
-output_file_path = 'C:/Users/mauri/OneDrive/Repositorios/AI-Cop_SLR/processed/_8_exclude-verified-file.xlsx'
+output_file_path = '../../data/processed/_8_exclude-verified-file.xlsx'
 articles_df.to_excel(output_file_path, index=False)

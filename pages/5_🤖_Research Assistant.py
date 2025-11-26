@@ -6,13 +6,23 @@ import pandas as pd
 # Carregar o DataFrame
 df = st.session_state["encoded-portfolio"]
 
+# Criar cabeçalho da página
+st.header('🤖 Research Assistant', divider=True)
+api_key = st.text_input("Insert here your Open AI API Key:", type="password", key="OPENAI_API_KEY")
+if not api_key:
+    st.info("🔑 Please insert your OpenAI API Key to start using the assistant.")
+    st.stop()
+
 # Configurar histórico da sessão
 if "historico" not in st.session_state:
-    mensagem_inicial = {'role': 'assistant', 'content': 'Hello, I am Etrebo, your research assistant. My role is to support you in the process of analyzing the articles. Lets get started?'}
+    mensagem_inicial = {'role': 'assistant', 'content': 'Hello, I am your research assistant. My role is to support you in the process of analyzing the articles in our article portfolio. Lets get started?'}
     st.session_state.historico = [mensagem_inicial]
 
 # Configurar o modelo de linguagem e o agente
-chat = ChatOpenAI(model="gpt-3.5-turbo-0125", max_tokens=500)
+chat = ChatOpenAI(
+    model="gpt-3.5-turbo-0125",
+    openai_api_key=api_key,
+    max_tokens=500)
 agent = create_pandas_dataframe_agent(
     chat,
     df,
@@ -22,8 +32,6 @@ agent = create_pandas_dataframe_agent(
     max_iterations=5
 )
 
-# Criar cabeçalho da página
-st.header('🤖 E-Tech Review Chat-bot', divider=True)
 
 # Montar o chatbot
 for mensagem in st.session_state.historico:
@@ -31,7 +39,7 @@ for mensagem in st.session_state.historico:
     chat.markdown(mensagem['content'])
 
 # Entrada do usuário
-prompt = st.chat_input("Ask Etrebo:")
+prompt = st.chat_input("Ask to assistant:")
 if prompt:
     nova_mensagem = {'role': 'user', 'content': prompt}
     st.session_state.historico.append(nova_mensagem)

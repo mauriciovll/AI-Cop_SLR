@@ -47,7 +47,7 @@ Abaixo segue uma lista de recomendações feitas por mim para aprimoramento das 
 
 Recomendações:
 1. Critérios de Codificação:
-Research topics: Priorizar os seguintes tópicos de pesquisa:
+Research topics: Utilizar, preferencialmente, os seguintes rótulos para tópicos de pesquisa:
 - Applications and use cases
 - Implementation and governance
 - Determinants, risks and impacts
@@ -63,7 +63,7 @@ Public value framework: Não é uma teoria formal. Usar "Unspecified" se o artig
 Document analysis: É uma técnica de análise de dados, não um método de pesquisa.
 
 3. Contexto e Teorias:
-Theoretical background: Usar "Unspecified" se não houver uma teoria formal explicitamente mencionada. Quando houver uma teoria, deve ser incluída corretamente, como Public value theory, se for definida no texto.
+Theoretical background: Usar "Unspecified" se não houver uma teoria formal explicitamente mencionada. Quando houver uma teoria, deve ser incluída corretamente, como, por exemplo,  "Public value theory", se for definida no texto.
 Technology discussed: Incluir apenas as tecnologias emergentes, como Artificial intelligence, Machine learning, Big data, Cloud computing, Real-time analytics. Técnicas de análise não devem ser confundidas com tecnologias emergentes.
 Research context: Definir o contexto corretamente, como Public management, Public services/security, Public procurement, ou Financial and budget management.
 Government level: O nível de governo deve ser corretamente identificado como National, Regional, ou Local.
@@ -71,9 +71,8 @@ Analysis level: Utilizar Meso ou Macro conforme apropriado à escala da discuss�
 Research approach: Definir corretamente como Qualitative, Quantitative, ou Mixed Methods.
 
 4. Outros Detalhes Importantes:
-Separar elementos múltiplos com ponto e vírgula (';') em todos os critérios, como técnicas de análise ou múltiplos tópicos.
+Separar elementos múltiplos com ponto e vírgula (';') em todos os critérios, como, por exemplo, múltiplas técnicas de análise ou múltiplos tópicos.
 Survey: É um método de pesquisa e não deve ser considerado técnica de análise.
-Case study: Deve ser usado para estudos empíricos que analisam múltiplos casos.
 Fuzzy cognitive maps: Não é uma tecnologia emergente, mas uma técnica de análise.
 Semi-structured interviews: Incluir como técnica de análise quando mencionado no artigo.
 Public value framework: Não é uma teoria formal. Usar "Unspecified" se o artigo não apresentar uma teoria formalmente definida.

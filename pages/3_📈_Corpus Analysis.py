@@ -26,7 +26,9 @@ else:
     tabela_jif = st.session_state["JIF"]
     portfolio_citations = st.session_state["Portfolio-citations"]
 
-    st.markdown("🎯Essa seção apresenta a análise do corpus da literatura selecionda (Portfolio). Se trata da análisa do perfil da publicação sobre o tema, considerando os meios de veiculação, sua evolução ao longo do tempo, impacto, autoria, palavras-chave, entre outras análises.")
+    st.markdown(
+        "🎯This section presents the general characteristics of the studies in terms of analysis of journals, authors and keywords, and (ii) content analysis – in which we sought to analyze the articles from a methodological perspective and from the context in which the studies were carried out."
+        )
     st.divider()
 
     # Convertendo os nomes dos periódicos para maiúscula para garantir a correspondência
@@ -101,7 +103,7 @@ else:
             st.pyplot(plt)
                         
             st.divider()
-            st.markdown("### Média de impacto e citações dos periódicos")
+            st.markdown("### Average impact and citations of journals")
             # Calculando os quartis e o IQR para JIF
             Q4_jif = tabela_jif_port['2023 JIF'].quantile(0.25)  # Q4 é o quartil mais baixo
             Q3_jif = tabela_jif_port['2023 JIF'].quantile(0.50)  # Q3 é quartil intermediário (mediana)
@@ -144,7 +146,7 @@ else:
                 st.metric(label="Average Citations without Outliers", value=f"{mean_citations_no_outliers:.2f}")
     
     elif section == "Publication Profile":
-        st.markdown("### Evolução da publicação ao longo do tempo")
+        st.markdown("### Evolution of publishing over time")
         # Agrupar os artigos por ano e contar as publicações por ano
         articles_x_years = portfolio.drop_duplicates(subset='title').groupby('year').size().reset_index(name='count')
         # Garantir que a coluna 'year' seja numérica e que não haja valores nulos
@@ -163,7 +165,7 @@ else:
             # Exibir o gráfico com Streamlit
             st.pyplot(plt)
 
-        st.markdown("### Artigos publicados por periódico (> 2)")
+        st.markdown("### Articles published by journal (> 2)")
         # Remover duplicatas com base no título do artigo antes de contar as publicações
         portfolio_unique_articles = portfolio.drop_duplicates(subset='title')
         # Agrupar por periódico e contar o número de publicações por periódico, considerando apenas artigos únicos
@@ -188,7 +190,7 @@ else:
             # Exibir o gráfico no Streamlit
             st.pyplot(plt)
 
-        st.markdown('### Citações dos artigos por base de dados')
+        st.markdown('### Article citations by database')
         if portfolio_citations.empty:
             st.error("Não há dados válidos para exibir o gráfico citações por artigo.")
         else:

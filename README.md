@@ -4,7 +4,7 @@
 
 # A.I. Co-piloted Sistematic Literature Review
 ## Project Description
-This repository contains all the source code and data for the article *"Emerging & data technologies applied to public sector: an AI-copiloted systematic literature review"*, written by Maurício Vasconcellos Leão Lyrio, Fabrícia Silva da Rosa, Miklos A. Vasarhelyi and Rogério João Lunkes.
+This repository contains all the source code and data for the article *"Emerging & data technologies applied to public sector: an AI-copiloted systematic literature review"*, written by Maurício Vasconcellos Leão Lyrio, Rogério João Lunkes and Miklos A. Vasarhelyi.
 
 ## Methodology
 
@@ -38,10 +38,10 @@ You must add credits to your [OpenAI Platform](https://platform.openai.com/docs/
 To initialize the Assistant, you must enter the OpenAI API key. To do so, go to [OpenAI Platform](https://platform.openai.com/docs/overview) > Dashboard > API Keys and create a new API key. After creating the key, copy and paste it into the location indicated in the .env file
 
 ## Citation
-Waiting article publication.
+Lyrio, M. V. L., Lunkes, R. j. & Vasarhelyi, M. (2025). Tecnologías emergentes y de datos aplicadas al sector público: Una revisión sistemática de la literatura copilotada por IA. Contabilidad Y Negocios, 20(40), 58–67. https://doi.org/10.18800/contabilidad.202502.003
 
 ## Contact
-Corresponding author: [Maurício Vasconcellos Leão Lyrio](https://br.linkedin.com/in/maurício-vasconcellos-leão-lyrio-59773220)
+Corresponding author: [Maurício Vasconcellos Leão Lyrio](https://br.linkedin.com/in/maur%C3%ADcio-vasconcellos-le%C3%A3o-lyrio-59773220)
 
 ## Acknowledgements
 The authors thank the National Council for Scientific and Technological Development – ​​CNPq (Process: 201489/2024-4) for financial support for the research.
