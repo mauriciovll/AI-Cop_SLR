@@ -42,9 +42,7 @@ st.markdown(
 # Rodapé
 cols = st.columns(4)
 with cols[0]:
-    btn_repo = st.button("Git Hub Repository")
-    if btn_repo:
-        st.page_link("https://github.com/mauriciovll/AI-Cop_SLR/tree/main", label="repositorio")
+    st.page_link("https://github.com/mauriciovll/AI-Cop_SLR/tree/main", label="repositorio")
 
 with cols[1]:
     btn_article = st.button("Article page")
