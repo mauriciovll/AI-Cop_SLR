@@ -40,6 +40,9 @@ To initialize the Assistant, you must enter the OpenAI API key. To do so, go to 
 ## Citation
 Lyrio, M. V. L., Lunkes, R. j. & Vasarhelyi, M. (2025). Tecnologías emergentes y de datos aplicadas al sector público: Una revisión sistemática de la literatura copilotada por IA. Contabilidad Y Negocios, 20(40), 58–67. https://doi.org/10.18800/contabilidad.202502.003
 
+## App page link
+[AI-Cop SLR Homepage](https://ai-cop-slr.streamlit.app/)
+
 ## Contact
 Corresponding author: [Maurício Vasconcellos Leão Lyrio](https://br.linkedin.com/in/maur%C3%ADcio-vasconcellos-le%C3%A3o-lyrio-59773220)
 
