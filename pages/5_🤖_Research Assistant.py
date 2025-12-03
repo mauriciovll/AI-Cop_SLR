@@ -20,7 +20,7 @@ if "historico" not in st.session_state:
 
 # Configurar o modelo de linguagem e o agente
 chat = ChatOpenAI(
-    model="gpt-5.1",
+    model="gpt-3.5-turbo-0125",
     openai_api_key=api_key,
     max_tokens=500)
 agent = create_pandas_dataframe_agent(
